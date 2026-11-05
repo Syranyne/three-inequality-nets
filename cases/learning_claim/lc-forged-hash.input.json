@@ -1,0 +1,81 @@
+{
+  "claim": "推理记录的摘要对不上",
+  "claimed_level": "L4",
+  "id": "lc-forged-hash",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": true,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-hash-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "ad9fe925e04d665e4b02d622828407aa0a538083bd54450905835e7c7ea2d825",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "dataset-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-hash-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "f24e8e32f0b6302eddde7c0877fbb2f1c2cfe54102f84314f051bf2ed575f4dc",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "label-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-hash-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "b4de019348ef0bb21d17ffba05b85b8c276cdd26932869252d0a387ddb4a8ced",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-hash-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "lc-forged-hash L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/lc-forged-hash-L4-out-0.txt",
+          "output_sha256": "74ee657f2bf77e00789c20942d7b854fa6d0f9ff8770bf00457ec5e838b2fbf3",
+          "review_path": "cases/learning_claim/fixtures/lc-forged-hash-L4-0-review.json",
+          "review_sha256": "3ec954660df1f1115031ed0d441b50f5c821b8d27de9cf21941dced6e805135f"
+        }
+      ]
+    }
+  }
+}

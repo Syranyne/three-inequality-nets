@@ -1,0 +1,84 @@
+{
+  "claim": "另一跳转发后作者仍是原撰写人",
+  "claimed_level": "L4",
+  "id": "au-pass-handoff",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-b",
+    "fact_checked": true,
+    "injected_authorization": false,
+    "sender": "agent-b",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-pass-handoff-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "e882eed6a04ab60d9dfd186b2413e6ea458a1f1b513cdfa2377e61a2645f762b",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/au-pass-handoff-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "55536c37d40461b366fc3c0046041fa5b6c929fa4c65ba6057d988c5d2cfd9d7",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "fact-check-record",
+          "path": "cases/authority/fixtures/au-pass-handoff-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "df6e9eea2e97ff5bcb80195d87d6b5de753646c3ea2baaf2319018bc3987163e",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-pass-handoff-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "83aac3bd706c4006f3ce2aef87f489c9b4f9dd2170c0b900a0b1ee8f310644ef",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-pass-handoff L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-pass-handoff-L4-out-0.txt",
+          "output_sha256": "54497c98f5beccb3a7240c06e9f5ba0317b6045d347b1abb20621f4205cef184",
+          "review_path": "cases/authority/fixtures/au-pass-handoff-L4-0-review.json",
+          "review_sha256": "95f5c97fa65a058be771bd7982f9760088bc17dd275813c817e93f8e5be59b4d",
+          "receipt_path": "cases/authority/fixtures/au-pass-handoff-L4-0.receipt.json",
+          "receipt_sha256": "3c054e89bafe417d5ca68ad16665b0d1714b15d6c610459f4b2a352ad05356ab"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "conditions-record",
+  "stage": "L4",
+  "note": "rt-skip-ruling:L4-0:cases/shared/record.txt"
+}

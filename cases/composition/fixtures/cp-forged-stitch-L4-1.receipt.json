@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-forged-stitch",
+  "claim_sha256": "738da3fa23234462e181b50cc6de53d0746bc37135ce92d63e920a1498d19a58",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "0be42028bee4c9951d581b83df9a9360ec5e93e01eb5c8433247aef6eff07b5f",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "df702f62690fc1f35d1910f59bf3329cb8f99c67933893aabbf5a26b7b00b953",
+  "started_at": "2026-01-15T00:00:00Z"
+}

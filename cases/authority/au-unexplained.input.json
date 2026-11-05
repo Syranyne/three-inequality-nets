@@ -1,0 +1,94 @@
+{
+  "claim": "同一张批准被用了两次，四格记录都指得到",
+  "claimed_level": "L4",
+  "id": "au-unexplained",
+  "net": "authority",
+  "outside_model": true,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": true,
+    "injected_authorization": false,
+    "sender": "agent-a",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-unexplained-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "0a13306686631cf16456ee42bfa3d49f8d4c9c540b9703402588a5e8c2ecfc08",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/au-unexplained-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "f6319a574f87cf19daa699f61e88e272dd0fd404cbba204d3681d4bf6f8d5e2e",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "fact-check-record",
+          "path": "cases/authority/fixtures/au-unexplained-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "f6933941291090acf7437761a86897162fce3dbe0d200f1f4f41facaa2c3322b",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-unexplained-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "465d6b8cb3fb2cb703f09025c480d551bb16e670d16d8fb1e087c73cebd6998c",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-unexplained L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-unexplained-L4-out-0.txt",
+          "output_sha256": "0d3ed42e21f9cf60a740197ea1344077163ba71785453c35bebea5e8eb37ad07",
+          "review_path": "cases/authority/fixtures/au-unexplained-L4-0-review.json",
+          "review_sha256": "80d1ddbef25ac75ce16fb7b51111ca34aca754d4cd0fb72df27e231830673518",
+          "receipt_path": "cases/authority/fixtures/au-unexplained-L4-0.receipt.json",
+          "receipt_sha256": "0a67895cbf8bc62da5ad4c8afb64cc0801ccff566eb803d4568cfb1bc353eeaf"
+        }
+      ]
+    }
+  },
+  "unexplained": {
+    "excluded_links": [
+      "发送者→语义作者",
+      "语义作者→事实主张",
+      "事实主张→写入授权"
+    ],
+    "phenomenon": "A synthetic incident persists beyond the established local checks.",
+    "source_ref": "cases/shared/record.txt",
+    "source_sha256": "40271e88b3f4c0d99b4452050a48c9a2eb92ef8a07a2e6a81ceef8402ae740fc"
+  }
+}

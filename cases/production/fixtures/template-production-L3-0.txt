@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "user-evaluation",
+  "stage": "L3",
+  "note": "template-production:L3:0"
+}

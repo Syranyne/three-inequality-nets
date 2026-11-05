@@ -1,0 +1,19 @@
+{
+  "case_id": "pd-unexplained",
+  "claim_sha256": "1c20bfa7bea788841048ad1013895bf6a5210242da06af2b9ada50548d0d183c",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "522f8c2eb00e7c5c7c399528cf67e1ac35b85008dc4cd236c1459ee19df186fc",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "1807de7b35a9ba4b4a5ec2c0b0532a26934b06fa23d9c2afab6216ea6f7d2fe2",
+  "producer": "fixture-generator",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "6d920fcd6bd4892c7776ca15f694eab2aa8590eff9e26f2ebe8ffd6e1c464797",
+  "started_at": "2026-01-15T00:00:00Z"
+}

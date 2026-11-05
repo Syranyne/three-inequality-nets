@@ -1,0 +1,82 @@
+{
+  "claim": "批准文件的摘要对不上",
+  "claimed_level": "L4",
+  "id": "au-forged-hash",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": true,
+    "injected_authorization": false,
+    "sender": "agent-a",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-forged-hash-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "ccc322c105d7528a73b27034710b602d3b31faa07a4be7633aff741ef6749fad",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/au-forged-hash-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "e9249ff552f40c943081f6055f6bbb3a304953eefa998331ad39031aa0deca68",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "fact-check-record",
+          "path": "cases/authority/fixtures/au-forged-hash-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "8f2e828ff2287b9e58c1d503f1b39cb5f30208f78ea6fad7f463da6281ab556b",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-forged-hash-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-forged-hash L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-forged-hash-L4-out-0.txt",
+          "output_sha256": "6ba688b4974aa04702dd39c6ed48ca0dae8ca3f1cfb9ba3849c2549d80f39fc3",
+          "review_path": "cases/authority/fixtures/au-forged-hash-L4-0-review.json",
+          "review_sha256": "b8fe9545f124d32c683c68f7e9a406fff1013452e54cf5e0b724fc4018bb46ca"
+        }
+      ]
+    }
+  }
+}

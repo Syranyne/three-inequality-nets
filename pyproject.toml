@@ -1,0 +1,23 @@
+[project]
+name = "three-inequality-nets"
+version = "0.2.1"
+description = "Three Inequality Nets: check agent claims against evidence, net by net"
+requires-python = ">=3.10"
+dependencies = []
+license = { text = "LicenseRef-PolyForm-Noncommercial-1.0.0" }
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+three-inequality-nets = "three_inequality_nets.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["three_inequality_nets*"]
+
+[tool.pytest.ini_options]
+norecursedirs = ["_备份", ".*", "build", "dist", "CVS", "_darcs", "{arch}", "*.egg"]

@@ -1,0 +1,19 @@
+{
+  "case_id": "pd-break-market",
+  "claim_sha256": "c88741d6dd4625b456a3cf557c87bda70f1a5410f31c3194d108c96516e16bf4",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "3e2e16cdb127984d987ab9df151165d7ce82daa6977256b76156572e8470cd07",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "ae7b5093e58305e1668f461265ffaf867e03e22d6ec90f3efa11415d0d787dd8",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "2246da8f1a8890f2817ca077454133277acedab938efe9d81b53e15407d0b9f3",
+  "started_at": "2026-01-15T00:00:00Z"
+}

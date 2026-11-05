@@ -1,0 +1,19 @@
+{
+  "case_id": "template-production",
+  "claim_sha256": "b53745105fdc85cfd5e52b0b893b0815e3b5b23c576a0ff65974b7a63a6a1851",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "1128d7207056e5d12952d6d73ae87e59415384ddf8af839b7552c6370f50235a",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "9f2a59a60e65fbcd5a3e1b7248adf92890ce3a32b19e43fb4751c2657196de13",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "636464d30b8e082f0cb2ed8478555bc1ceac8fa2861edfb6aaabd3f8c850c490",
+  "started_at": "2026-01-15T00:00:00Z"
+}

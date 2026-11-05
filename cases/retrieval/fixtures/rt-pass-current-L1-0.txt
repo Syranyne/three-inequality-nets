@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "hit-record",
+  "stage": "L1",
+  "note": "rt-pass-current:L1-0:cases/shared/record.txt"
+}

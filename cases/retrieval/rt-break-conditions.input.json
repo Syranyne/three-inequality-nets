@@ -1,0 +1,79 @@
+{
+  "claim": "裁决有效，这次环境不满足条件",
+  "claimed_level": "L4",
+  "id": "rt-break-conditions",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": false,
+    "current_authority": true,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-break-conditions-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "c150aa37d6be76dbfde03e3834b2839acde32375eccd48d138c0cd1c0d7c9885",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/rt-break-conditions-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "1bc6bd29d1cadc0b93401ab6bea2f4681d3495240e0c6b8bb3dc53b20dd1c216",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "authority-record",
+          "path": "cases/retrieval/fixtures/rt-break-conditions-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "18fb1ccc9b7bce37962bd2a6276102dfaa7643516f0edfa519903bd5d5a175f8",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-break-conditions-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "29b955abf27414d65ef9cc7f8ac4534730bcb75f0fac961b24be966778717f26",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-break-conditions L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-break-conditions-L4-out-0.txt",
+          "output_sha256": "ef1ff906a5210ba9c0627f1bdbd2e3db03ed560acee07232a480fbc3432a23ce",
+          "review_path": "cases/retrieval/fixtures/rt-break-conditions-L4-0-review.json",
+          "review_sha256": "ce44f0be971907da03bbe2d6379f38b87a665eb7f8bda7bcdc3fb3a4d04ac569",
+          "receipt_path": "cases/retrieval/fixtures/rt-break-conditions-L4-0.receipt.json",
+          "receipt_sha256": "f9ee9b9a74aff92698f0f3d41a29834b7406224c328dd2b42168a4342c9d0871"
+        }
+      ]
+    }
+  }
+}

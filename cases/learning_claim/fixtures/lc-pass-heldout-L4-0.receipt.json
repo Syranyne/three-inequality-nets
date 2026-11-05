@@ -1,0 +1,19 @@
+{
+  "case_id": "lc-pass-heldout",
+  "claim_sha256": "8e3935da6c4854795f1b1ff5f1a968f2c4016e5d6a9df9aa4793aebdf87024c3",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "c7a1e45fcbde6909cd0cf1e5f3e3d6c569888e55b8594290cc905b7c35804eae",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "b6376f17b3a1997786593d0c5901cfb4c454e7a872bd0cb0000af22af44c2fd9",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "3ffd2f5b239de3bad79f2fbe6528baaf5130d2075af722083336da881ba8b258",
+  "started_at": "2026-01-15T00:00:00Z"
+}

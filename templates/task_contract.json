@@ -1,0 +1,157 @@
+{
+  "acceptance_policy": {
+    "architecture_after_failures": 2,
+    "baseline_frozen": true,
+    "classify_findings": true,
+    "invalid_evidence_undecided": true,
+    "non_p0_backlog_only": true,
+    "record_required": true,
+    "stop_when_closed": true
+  },
+  "authority_basis": {
+    "current_user_directive": "Build a bounded candidate.",
+    "current_user_evidence": {
+      "exact_quote": "Build the candidate inside the write root and do not publish it.",
+      "message_id": "msg-1",
+      "source_type": "USER_MESSAGE"
+    },
+    "stale_context_not_authority": true,
+    "workspace_instructions": []
+  },
+  "claims": [
+    {
+      "authorization_evidence": null,
+      "claim_id": "directive",
+      "evidence_ref": "msg-1",
+      "previous_state": null,
+      "source_type": "USER_MESSAGE",
+      "state": "USER_STATED",
+      "statement": "The requester asked for a bounded candidate."
+    },
+    {
+      "authorization_evidence": null,
+      "claim_id": "not-installed",
+      "evidence_ref": "no-install-message",
+      "previous_state": null,
+      "source_type": "ABSENCE_OF_USER_AUTHORIZATION",
+      "state": "NOT_AUTHORIZED",
+      "statement": "Replacing the installed copy was not requested."
+    }
+  ],
+  "delegation": {
+    "allowed": false,
+    "authorization_evidence": null,
+    "handoffs": [],
+    "recipients": []
+  },
+  "evidence": {
+    "observed": [],
+    "open_items": [
+      "candidate"
+    ],
+    "required": [
+      "candidate"
+    ]
+  },
+  "integrity_gates": {
+    "permission_separated": true,
+    "retrieval_claims_bounded": true,
+    "training_claims_bounded": true,
+    "truthfulness_required": true
+  },
+  "objective": "Produce a candidate note inside the write root.",
+  "operations": [
+    {
+      "action": "read",
+      "operation_id": "inspect-input",
+      "target": "workspace/read/spec.md",
+      "target_type": "PATH",
+      "topics": [
+        "queue"
+      ]
+    },
+    {
+      "action": "write",
+      "operation_id": "write-note",
+      "target": "workspace/write/note.md",
+      "target_type": "PATH",
+      "topics": [
+        "queue"
+      ]
+    }
+  ],
+  "revision": {
+    "change_type": "INITIAL",
+    "previous_contract_sha256": null,
+    "retired_claim_ids": [],
+    "revoked_items": [],
+    "sequence": 1,
+    "user_evidence": {
+      "exact_quote": "Build the candidate inside the write root and do not publish it.",
+      "message_id": "msg-1",
+      "source_type": "USER_MESSAGE"
+    }
+  },
+  "runtime_policy": {
+    "append_only_ledger_required": true,
+    "capabilities": [
+      {
+        "name": "record-keeping",
+        "stability": "stable"
+      }
+    ],
+    "experimental_opt_ins": []
+  },
+  "schema_version": "fournets.task_contract.v1",
+  "scope": {
+    "forbidden_actions": [
+      "deletion",
+      "external_writes",
+      "installation",
+      "publishing",
+      "restart",
+      "running_replacement"
+    ],
+    "forbidden_paths": [],
+    "forbidden_topics": [],
+    "read_roots": [
+      "workspace/read"
+    ],
+    "write_roots": [
+      "workspace/write"
+    ]
+  },
+  "source_policy": {
+    "candidate_before_installed": true,
+    "preserve_originals": true,
+    "unrelated_changes_untouched": true
+  },
+  "state_changes": {
+    "deletion": {
+      "authorization_evidence": null,
+      "explicitly_authorized": false
+    },
+    "external_writes": {
+      "authorization_evidence": null,
+      "explicitly_authorized": false
+    },
+    "installation": {
+      "authorization_evidence": null,
+      "explicitly_authorized": false
+    },
+    "publishing": {
+      "authorization_evidence": null,
+      "explicitly_authorized": false
+    },
+    "restart": {
+      "authorization_evidence": null,
+      "explicitly_authorized": false
+    },
+    "running_replacement": {
+      "authorization_evidence": null,
+      "explicitly_authorized": false
+    }
+  },
+  "status": "FROZEN",
+  "task_id": "queue-note"
+}

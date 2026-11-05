@@ -1,0 +1,108 @@
+{
+  "claim": "班次记录的退出码是 0，但没有输出",
+  "claimed_level": "L4",
+  "id": "pd-forged-exit",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "real_user_signal": true,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-forged-exit-users.json",
+    "user_signal_sha256": "6aa29c53c2c936bd21e8c36dd091f4896134ffeea471dd6de9a5c462aa2df98c",
+    "user_sample_size": 30,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/pd-forged-exit-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/pd-forged-exit-baseline.json",
+        "source_sha256": "f7774e78b30fa0672fa84afd2a6a44de76818c9515ff3e7dc5b3d9c291450112"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/pd-forged-exit-competitor.json",
+          "source_sha256": "14dc8625a20307d3dc26093955d8e4ba5cb7818c33c04b3ebe42db68128c79d0"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/pd-forged-exit-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "377078c3e3811311cb328f32e4b93ee1b3aad81a2792df8c2e91d3b20a3b96dc",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "command": [],
+          "exit_code": 0,
+          "kind": "release-record",
+          "output_summary": "",
+          "path": "cases/production/fixtures/pd-forged-exit-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "6ac8dd6d538ab765325f7b9803fff544a5d72a9f4c93df15f3bbb0d2d6c1eb5d",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "user-evaluation",
+          "path": "cases/production/fixtures/pd-forged-exit-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "78027aa8ac7a88cd88b4c58b48c4363b79e90c5de225916df3fa6ce86da26aae",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/pd-forged-exit-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "6c9d7c37d09db6c8c3d62e58e24b0946c2975d21e2f827f4b58c1b46c9c84a2e",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "pd-forged-exit L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/pd-forged-exit-L4-out-0.txt",
+          "output_sha256": "3e8d1ab1982302727f5f5801a2ca39088c4f2d052eeeb211b6810cb24eb4bd3a",
+          "review_path": "cases/production/fixtures/pd-forged-exit-L4-0-review.json",
+          "review_sha256": "ab90d4773f0fc27ed4f9f85dd44c7f8bec80dac4eaf08f4a03788dbfb7fee138",
+          "receipt_path": "cases/production/fixtures/pd-forged-exit-L4-0.receipt.json",
+          "receipt_sha256": "27c7cf9d4f92bd2c1591236874872d92e3ae6d693c8e3c89c3535cb3b9dbe460"
+        }
+      ]
+    }
+  }
+}

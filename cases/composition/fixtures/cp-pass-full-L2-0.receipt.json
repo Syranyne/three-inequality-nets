@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-pass-full",
+  "claim_sha256": "aebb790fe610304ab9836565f8d73bdf68235561a1712e250480f648b9c436bc",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "680158164a7e23e23860b6e2665f680d41c3317dd4106dbdcb95f9be01019a69",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "6712d6dc97d3181fa0b97694ea329998b080d49a4be6dca7e6d1959a5a940771",
+  "started_at": "2026-01-15T00:00:00Z"
+}

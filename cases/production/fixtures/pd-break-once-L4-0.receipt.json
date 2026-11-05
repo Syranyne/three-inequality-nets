@@ -1,0 +1,19 @@
+{
+  "case_id": "pd-break-once",
+  "claim_sha256": "0b4a0843b0dc3b24e5926375d02bd6b7581c4fd66aadc2932bed244339b18fdb",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "59437a815d69cf05da84c6bb3ed1433fb2779afb9e7d8a26f31c0fcba292f65c",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "87b6c55b03da962fd2e8320161f3c44bb22dc540852ee0fda33fa1dd01595965",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "a9e825992fe0d37c007ded4576180dad5c1b7bf9e12f7eb94f43dec478c598c1",
+  "started_at": "2026-01-15T00:00:00Z"
+}

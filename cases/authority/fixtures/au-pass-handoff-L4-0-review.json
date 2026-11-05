@@ -1,0 +1,8 @@
+{
+  "case_id": "au-pass-handoff",
+  "claim_sha256": "7ad92c42efd3bfd0ac6893d65ee168a7445281cf8e3dd633631c38f699658e0b",
+  "conclusion": "accept",
+  "evidence_sha256": "83aac3bd706c4006f3ce2aef87f489c9b4f9dd2170c0b900a0b1ee8f310644ef",
+  "reviewer": "reviewer-b",
+  "signature": "e7dba519175c2eb51320141ea5d246780018657cbd3ce7445312bbada9423ca3"
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "au-skip-to-write",
+  "claim_sha256": "745ba17069d770d6714e19b34cf9bf380a868b6f1125b2c238ca6fd3eb5a02e5",
+  "conclusion": "accept",
+  "evidence_sha256": "0a9c0ac1f55e0f5c1d0efa6c3d8fbea6311d9dd3f19fecf7174c63face61978a",
+  "reviewer": "reviewer-b",
+  "signature": "5de64b7587b20d537ed36ce051229762cfeac7126419e923f442889318197077"
+}

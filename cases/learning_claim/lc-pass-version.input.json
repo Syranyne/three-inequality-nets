@@ -1,0 +1,83 @@
+{
+  "claim": "另一条纠正同样走完四个环节",
+  "claimed_level": "L4",
+  "id": "lc-pass-version",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": true,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/lc-pass-version-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "1f895eed59ad8884b7d084730018012ca6df0411ee38ffa21549f0c2a77d7300",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "dataset-record",
+          "path": "cases/learning_claim/fixtures/lc-pass-version-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "483638f32209d41c5f994d3a06a4bf2139729ae8dcdcf5837ed579cf498b3e5a",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "label-record",
+          "path": "cases/learning_claim/fixtures/lc-pass-version-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "69ec64975c7067d56e0985384de78dfb79cdb6516b986231595d8f57fddc2148",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/lc-pass-version-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "10220c07f8550f6028cc8cc0227c6b2ca9809bd9cad1024a655d5d0c36e3b615",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "lc-pass-version L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/lc-pass-version-L4-out-0.txt",
+          "output_sha256": "5bc4ba766c1d14aa8b67b479227d699265cb8cc2fd938d7ee77c480fb23a2f94",
+          "review_path": "cases/learning_claim/fixtures/lc-pass-version-L4-0-review.json",
+          "review_sha256": "8431b35c00f6d78eee50031bb93e6978e5883f17bda41e1cfa0410dfe5e471d4",
+          "receipt_path": "cases/learning_claim/fixtures/lc-pass-version-L4-0.receipt.json",
+          "receipt_sha256": "470c9f9a3a186c0da6be1a7fbe28f8013a4c4e053daf0c14cb3c3182288a5c4b"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "au-forged-exit",
+  "claim_sha256": "141fbca7ebfcda94bfda2898a8873505575549859530f2af0683e9e275add7fc",
+  "conclusion": "accept",
+  "evidence_sha256": "90d8b8a80f6c10425fc9fd5e2acb67223a4c539f30abde5d711f9b804317a73e",
+  "reviewer": "reviewer-b",
+  "signature": "90ddb87a2e5c38b2bb8194aa0c2a3c72843db4e0d3295921dc0c7e45190d1613"
+}

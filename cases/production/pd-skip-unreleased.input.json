@@ -1,0 +1,41 @@
+{
+  "claim": "没有发布记录就说已经上线",
+  "claimed_level": "L2",
+  "id": "pd-skip-unreleased",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "benchmark_present": true,
+    "real_user_signal": true,
+    "release_recorded": false,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-skip-unreleased-users.json",
+    "user_signal_sha256": "9bcdd83ea650e238455a513527d1fde3e68a3aa193151239aa89734c3b5387d4",
+    "user_sample_size": 30
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/shared/record-pd-skip-unreleased-L1.json",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "f7121b7177e579b2f99200c84e47f7c4195982808f268b514a8f58aed17ac931",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": []
+    },
+    "L3": {
+      "evidence": []
+    },
+    "L4": {
+      "evidence": []
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "evaluations": [
+    {
+      "evaluator": "user-panel-1",
+      "paid_accounts": 12,
+      "product": "service-a",
+      "repeat_sessions": 3,
+      "retained_accounts": 10
+    },
+    {
+      "evaluator": "user-panel-2",
+      "paid_accounts": 12,
+      "product": "service-b",
+      "repeat_sessions": 3,
+      "retained_accounts": 10
+    }
+  ],
+  "fixture_type": "synthetic-test-record",
+  "scope": "independent user evaluation of each product",
+  "self_scored": false,
+  "sample_size": 30,
+  "evidence_kind": "user-evaluation",
+  "stage": "L3"
+}

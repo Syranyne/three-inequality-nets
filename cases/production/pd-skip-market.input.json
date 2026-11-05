@@ -1,0 +1,62 @@
+{
+  "claim": "一份样品直接写成足以动摇行业",
+  "claimed_level": "L4",
+  "id": "pd-skip-market",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "real_user_signal": true,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-skip-market-users.json",
+    "user_signal_sha256": "19b6c91e113da8fdcd6bac0a8a75e7133c5ecb80b9e0a1d65a3fc95497329fb8",
+    "user_sample_size": 30,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/pd-skip-market-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/pd-skip-market-baseline.json",
+        "source_sha256": "19ebb9cb1c894e03add46e0bafc89f19f0a595f18ad6edec5211b8240f392cb1"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/pd-skip-market-competitor.json",
+          "source_sha256": "d3557614bab322f0f4a3369f61eebb5a313e0f662244e1e46d93a7cfb0c283f4"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/shared/record-pd-skip-market-L1.json",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "f7121b7177e579b2f99200c84e47f7c4195982808f268b514a8f58aed17ac931",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": []
+    },
+    "L3": {
+      "evidence": []
+    },
+    "L4": {
+      "evidence": []
+    }
+  }
+}

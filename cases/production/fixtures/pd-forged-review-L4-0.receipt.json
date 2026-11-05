@@ -1,0 +1,19 @@
+{
+  "case_id": "pd-forged-review",
+  "claim_sha256": "09196ac47559eed2462b32f6d4f22b8fe1340acd4c2601e1e9690a7f3819ef09",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "37d529706a5aa55484c5107033876f083858f68dde050984bcd420165a0f6402",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "caf0963d0e6ebcb0fa61e0e5f611d1dcfd407cd41af16acb28c9a22f57a2b7c5",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "e7d3e137be86295b1c78a4807f6d47d31db5bd39e1eca9968447eb26319e5617",
+  "started_at": "2026-01-15T00:00:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "lc-skip-label",
+  "claim_sha256": "d104f1794f408c75d6b479ff95e334d2f44054581652a865242d21e289b86120",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "603fea41852092e6298eec2d8e3f42708cf09fb4f3840655619961c022bd4231",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "050e3420b2e59cbd7e49c501b516f907fd0b32f8fe70920c87a0dcb0406ce832",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "da983fab201e8c5357c7defdd288b97452eaf1e2557acbb4c165c83549b2c9bb",
+  "started_at": "2026-01-15T00:00:00Z"
+}

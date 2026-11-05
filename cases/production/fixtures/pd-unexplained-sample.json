@@ -1,0 +1,22 @@
+{
+  "fixture_type": "synthetic-test-record",
+  "products": [
+    {
+      "artifact_exists": true,
+      "baseline_demand": 100,
+      "output_orders": 100,
+      "product": "service-a",
+      "smoke_passed": true
+    },
+    {
+      "artifact_exists": true,
+      "baseline_demand": 100,
+      "output_orders": 100,
+      "product": "service-b",
+      "smoke_passed": true
+    }
+  ],
+  "scope": "each product in isolation",
+  "evidence_kind": "sample-record",
+  "stage": "L1"
+}

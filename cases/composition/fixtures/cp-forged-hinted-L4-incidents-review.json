@@ -1,0 +1,8 @@
+{
+  "case_id": "cp-forged-hinted",
+  "claim_sha256": "7727ce75bad89c4824b6f3bc8ef224ac3b6c2fba980934f6bf884ac7a1e8b951",
+  "conclusion": "accept",
+  "evidence_sha256": "9fdeb9b9492c1a95c5fbc49a2557bbf1031a1d2ffd6abf0ac7a32e5e64fb64db",
+  "reviewer": "reviewer-b",
+  "signature": "4d120c9925a03073f6d4bc746edcb337e1506ed0451cc00b59dd2e101aa34cc5"
+}

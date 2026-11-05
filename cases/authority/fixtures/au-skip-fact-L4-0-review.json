@@ -1,0 +1,8 @@
+{
+  "case_id": "au-skip-fact",
+  "claim_sha256": "adfcd3b8464aba159046417ea2cab6e012d08ab4f092d661a2ff5fb9be6718bd",
+  "conclusion": "accept",
+  "evidence_sha256": "952d763f51a332eb524ec3b39e1a17115bcf869b8b50a003d870e3c5e86af8a1",
+  "reviewer": "reviewer-b",
+  "signature": "6bd4488568d60efd3dddb080be9c89bde3f1dbf75c2cd1af479f795d3ff36c4a"
+}

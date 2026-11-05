@@ -1,0 +1,8 @@
+{
+  "case_id": "rt-break-conditions",
+  "claim_sha256": "9dbf7121713ab48f0345001f02131bd2f0a02eca2f282ae82646bad9bfd8b7e6",
+  "conclusion": "accept",
+  "evidence_sha256": "29b955abf27414d65ef9cc7f8ac4534730bcb75f0fac961b24be966778717f26",
+  "reviewer": "reviewer-b",
+  "signature": "da0a13e90a7ccb0f49300e18a6b233d940931130eb8ee2bcea6d9ce0d70aa13b"
+}

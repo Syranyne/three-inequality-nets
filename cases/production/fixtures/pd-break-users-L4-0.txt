@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "benchmark-record",
+  "stage": "L4",
+  "note": "pd-break-users:L4-0:cases/shared/record.txt"
+}

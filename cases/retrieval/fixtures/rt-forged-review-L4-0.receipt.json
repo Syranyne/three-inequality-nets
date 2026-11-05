@@ -1,0 +1,19 @@
+{
+  "case_id": "rt-forged-review",
+  "claim_sha256": "140b74a18e8e7a338a8fb5eaee8c368d8cc14b3e99c97ce135e8ebbae699d25f",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "a8fefb21abcc9d98d68018574d729750089af0712e0e8e53f7b2f6c8b8b2084d",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "b7a695d94f076518fceee58884cebcfdc440643320e7adb2757130434e469b43",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "99e5d5edc783807da56839047948731923169b600b7a022d8d663859ad73003f",
+  "started_at": "2026-01-15T00:00:00Z"
+}

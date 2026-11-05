@@ -1,0 +1,57 @@
+{
+  "baseline": {
+    "baseline_id": "base-1",
+    "criteria": [
+      {
+        "blocking": true,
+        "criterion_id": "AC-01",
+        "source_ref": "docs/00_总纲.md",
+        "statement": "A frozen check stays closed only when its evidence still holds.",
+        "verification_method": "Compare the bound file bytes."
+      }
+    ]
+  },
+  "baseline_change": {
+    "applies_to_current_candidate": false,
+    "authorization_evidence": null,
+    "changed": false,
+    "rationale": null
+  },
+  "candidate": {
+    "artifact_path": "templates/fixtures/candidate.txt",
+    "artifact_sha256": "1e81270f1a47dce22a2e4985250c74b2e3374443734f1492b03ea2cd2af4ec48",
+    "candidate_id": "cand-1"
+  },
+  "closure": {
+    "backlog_requirement_ids": [],
+    "decision": "PASS_CANDIDATE",
+    "evidence_state": "VALID",
+    "open_blocking_finding_ids": [],
+    "product_state": "PASS",
+    "review_must_stop": true
+  },
+  "findings": [],
+  "review_id": "review-1",
+  "revision": {
+    "change_type": "INITIAL",
+    "previous_record_sha256": null,
+    "sequence": 1,
+    "user_evidence": {
+      "exact_quote": "Freeze this check before implementation.",
+      "message_id": "msg-1",
+      "source_type": "USER_MESSAGE"
+    }
+  },
+  "round_state": {
+    "architecture_review": {
+      "decision": null,
+      "dimensions_reviewed": [],
+      "hypothesis": null,
+      "status": "NOT_REQUIRED",
+      "targeted_experiment": null
+    },
+    "attempt_number": 1,
+    "consecutive_failed_rounds": 0
+  },
+  "schema_version": "fournets.convergence.v1"
+}

@@ -1,0 +1,79 @@
+{
+  "coupling_rule": {
+    "base_demand_per_service": 100,
+    "partner_feedback_gain": 1,
+    "uses_previous_round_partner_orders": true
+  },
+  "excluded_findings": {
+    "L1": "Both isolated samples exist and pass smoke checks.",
+    "L2": "Both products have ten passing isolated trials and recorded releases.",
+    "L3": "Both receive independent repeated-use and payment signals.",
+    "L4": "Both lead the reference in isolated cost and latency."
+  },
+  "fixture_type": "synthetic-test-record",
+  "model_gap": "The production net has no field for a feedback relation between two separately validated products.",
+  "phenomenon": "Two individually validated replenishment products amplify each other's orders after their order feeds are connected.",
+  "scope": "feedback between independent products sharing a demand pool",
+  "stage_refs": {
+    "L1": {
+      "path": "cases/production/fixtures/pd-unexplained-sample.json",
+      "sha256": "28a6978f2e4edfeb2c102571c633455039e01e265a0a8b2968e81297c085d1cb"
+    },
+    "L2": {
+      "path": "cases/production/fixtures/pd-unexplained-release.json",
+      "sha256": "109433eb1eef9304a8b3a6b8945cee8e4937081066007ce2761fdefcf7ac69ec"
+    },
+    "L3": {
+      "path": "cases/production/fixtures/pd-unexplained-users.json",
+      "sha256": "9f124daca85c92b76fdc684153624e333e03f0823c4c50d9e5c1b4e405435c1d"
+    },
+    "L4": {
+      "path": "cases/production/fixtures/pd-unexplained-benchmark.json",
+      "sha256": "522f8c2eb00e7c5c7c399528cf67e1ac35b85008dc4cd236c1459ee19df186fc"
+    }
+  },
+  "trace": [
+    {
+      "combined_orders": 200,
+      "external_demand_total": 200,
+      "round": 0,
+      "service_a_orders": 100,
+      "service_b_orders": 100
+    },
+    {
+      "combined_orders": 400,
+      "external_demand_total": 200,
+      "round": 1,
+      "service_a_orders": 200,
+      "service_b_orders": 200
+    },
+    {
+      "combined_orders": 600,
+      "external_demand_total": 200,
+      "round": 2,
+      "service_a_orders": 300,
+      "service_b_orders": 300
+    },
+    {
+      "combined_orders": 800,
+      "external_demand_total": 200,
+      "round": 3,
+      "service_a_orders": 400,
+      "service_b_orders": 400
+    },
+    {
+      "combined_orders": 1000,
+      "external_demand_total": 200,
+      "round": 4,
+      "service_a_orders": 500,
+      "service_b_orders": 500
+    },
+    {
+      "combined_orders": 1200,
+      "external_demand_total": 200,
+      "round": 5,
+      "service_a_orders": 600,
+      "service_b_orders": 600
+    }
+  ]
+}

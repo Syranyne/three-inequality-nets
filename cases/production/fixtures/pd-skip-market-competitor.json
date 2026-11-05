@@ -1,0 +1,8 @@
+{
+  "attested_by": "bench-lab-b",
+  "case_id": "pd-skip-market",
+  "claim_sha256": "c543cf1af623362aa88b02acbc185a876af1bc802eb7f969cd243bd4c7d490d0",
+  "origin": "synthetic fixture: competitor-a",
+  "signature": "3aa17c7af0e300570cec633e4003af01182998cbac1aa0c8e8f3bbea32919025",
+  "value": 0.7
+}

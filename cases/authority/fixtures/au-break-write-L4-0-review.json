@@ -1,0 +1,8 @@
+{
+  "case_id": "au-break-write",
+  "claim_sha256": "b84868da2bf6dd3b692a5dd9a09f596d1d410d773875f0a0ae78f8604c5b4f5d",
+  "conclusion": "accept",
+  "evidence_sha256": "9d6af381948e9a787264066eeb95cf3540ba233df6066c2b6e13ebd94ed4f80a",
+  "reviewer": "reviewer-b",
+  "signature": "0d7805c75ce9b998dd91d23aec670ea8188ea60f64cce37807e2bf016f59dd58"
+}

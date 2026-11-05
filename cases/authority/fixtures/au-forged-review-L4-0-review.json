@@ -1,0 +1,8 @@
+{
+  "case_id": "au-forged-review",
+  "claim_sha256": "24966609e5c6ac55e8f35cd8ee217671172177938a7df29d4313b89d965859e5",
+  "conclusion": "accept",
+  "evidence_sha256": "90ae23d5b1d2e987857239cf9e8e8da2d4557f6a5699eb2f82b41e4d2a6ba65c",
+  "reviewer": "reviewer-b",
+  "signature": "6e822f085ec522cbce445f63b9fe7f5b759adc88459f12058002d1c4fb53a9a8"
+}

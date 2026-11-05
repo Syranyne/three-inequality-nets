@@ -1,0 +1,488 @@
+{
+  "claimed_level": "L4",
+  "id": "cp-break-priority",
+  "net": "composition",
+  "observations": {
+    "capabilities": [
+      "safety",
+      "speed"
+    ],
+    "conflicts": [
+      {
+        "capabilities": [
+          "safety",
+          "speed"
+        ],
+        "chosen": "speed",
+        "conflict_id": "conflict-1",
+        "episode_id": "joint-1",
+        "expected_winner": "safety",
+        "injected": true,
+        "loser_handling": "deferred",
+        "started_at": "2026-01-15T10:10:00Z"
+      },
+      {
+        "capabilities": [
+          "safety",
+          "speed"
+        ],
+        "chosen": "safety",
+        "conflict_id": "conflict-2",
+        "episode_id": "joint-2",
+        "expected_winner": "safety",
+        "injected": false,
+        "loser_handling": "deferred",
+        "started_at": "2026-01-15T11:10:00Z"
+      }
+    ],
+    "incidents": [
+      {
+        "action_id": "change-1",
+        "baseline": 0,
+        "consequence_at": "2026-01-15T10:06:00Z",
+        "consequence_metric": "error-count",
+        "corrected_at": "2026-01-15T10:09:00Z",
+        "correction_action_id": "repair-1",
+        "detected_at": "2026-01-15T10:08:00Z",
+        "detected_by": "self",
+        "episode_id": "joint-1",
+        "hints": [],
+        "incident_id": "incident-1",
+        "observed": 4,
+        "recheck": {
+          "at": "2026-01-15T20:00:00Z",
+          "joint_episode_id": "joint-10",
+          "metric_value": 0,
+          "tolerance": 0.5,
+          "verified_by": "reviewer-b"
+        },
+        "detection_log_ref": "cases/composition/fixtures/cp-break-priority-detection-0.jsonl",
+        "detection_log_sha256": "740a73d89cf88996834961ab8416b9ba3508f42ff37493741400cb33bd62784a"
+      }
+    ],
+    "joint": {
+      "episodes": [
+        {
+          "actions": [
+            {
+              "action_id": "change-1",
+              "actor": "self",
+              "at": "2026-01-15T10:05:00Z"
+            },
+            {
+              "action_id": "repair-1",
+              "actor": "self",
+              "at": "2026-01-15T10:09:00Z"
+            }
+          ],
+          "episode_id": "joint-1",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T10:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T10:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T10:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-2",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T11:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T11:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T11:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T11:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-3",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T12:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T12:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T12:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T12:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-4",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T13:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T13:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T13:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T13:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-5",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T14:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T14:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T14:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T14:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-6",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T15:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T15:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T15:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T15:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-7",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T16:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T16:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T16:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T16:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-8",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T17:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T17:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T17:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T17:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-9",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T18:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T18:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T18:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T18:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-10",
+          "spans": [
+            {
+              "capability": "safety",
+              "end": "2026-01-15T19:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T19:00:00Z"
+            },
+            {
+              "capability": "speed",
+              "end": "2026-01-15T19:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T19:01:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    "policy": {
+      "declared_at": "2026-01-14T00:00:00Z",
+      "order": [
+        "safety",
+        "speed"
+      ],
+      "policy_id": "priority-1",
+      "rules": [
+        {
+          "when": [
+            "safety",
+            "speed"
+          ],
+          "winner": "safety"
+        }
+      ],
+      "sha256": "6a9e256f6871406889f2a80379f95243dcc96917978f53fcbd3cee7db5474fb8"
+    },
+    "solo": {
+      "safety": {
+        "passes": 10,
+        "run_ids": [
+          "solo-code-0",
+          "solo-code-1",
+          "solo-code-2",
+          "solo-code-3",
+          "solo-code-4",
+          "solo-code-5",
+          "solo-code-6",
+          "solo-code-7",
+          "solo-code-8",
+          "solo-code-9"
+        ],
+        "runs": 10
+      },
+      "speed": {
+        "passes": 10,
+        "run_ids": [
+          "solo-docs-0",
+          "solo-docs-1",
+          "solo-docs-2",
+          "solo-docs-3",
+          "solo-docs-4",
+          "solo-docs-5",
+          "solo-docs-6",
+          "solo-docs-7",
+          "solo-docs-8",
+          "solo-docs-9"
+        ],
+        "runs": 10
+      }
+    },
+    "thresholds": {
+      "max_joint_drop": 0.1,
+      "min_conflicts": 2,
+      "min_pass_rate": 0.8,
+      "min_runs": 5
+    },
+    "subject_id": "self"
+  },
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/solo.txt",
+          "produced_by": "runner-a",
+          "sha256": "c0ca3d2a348ae6127923422ef4e0adabe66de1f7e3838743cbf14ebbe4246adb",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-break-priority-L1-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-break-priority-L1-0.receipt.json",
+          "receipt_sha256": "20f3e4f4387b12aebc044452d0afa3d37e82d8179bf9bab6f37847a6d8df2a19"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "solo-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-break-priority-solo.json",
+          "produced_by": "runner-a",
+          "sha256": "591abef73b583a2ad3d56b9304c2c576f1f63af8acea15c21b2334366c9c8de9",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-break-priority-L1-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-break-priority-L1-1.receipt.json",
+          "receipt_sha256": "4805f326525971ba7ffbfb0eabeedfb4e2d19cf1205671cbd42fe47c54e34615"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/joint.txt",
+          "produced_by": "runner-a",
+          "sha256": "680158164a7e23e23860b6e2665f680d41c3317dd4106dbdcb95f9be01019a69",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-break-priority-L2-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-break-priority-L2-0.receipt.json",
+          "receipt_sha256": "2013bda67b8a8f0639b98d286ad9469d7afbfe64e9ad4c964c843c1b9bf287dd"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "joint-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-break-priority-joint.json",
+          "produced_by": "runner-a",
+          "sha256": "ef5699ec1dd064228ca66683035285a9cc30b07b6f517bb33826bb652c3b6750",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-break-priority-L2-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-break-priority-L2-1.receipt.json",
+          "receipt_sha256": "a0a1d3d9b80afc06e647babffcb0961363ea644b3534a2d08ce8352566cc8be0"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "priority-policy",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/policy-priority.json",
+          "produced_by": "runner-a",
+          "sha256": "6a9e256f6871406889f2a80379f95243dcc96917978f53fcbd3cee7db5474fb8",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-break-priority-L3-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-break-priority-L3-0.receipt.json",
+          "receipt_sha256": "f1ca08f39a94a0544749b8783b47595e9d26e152fbf01ed5f78ba9cb738f8812"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "conflict-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-break-priority-conflicts.json",
+          "produced_by": "runner-a",
+          "sha256": "aed4e7e1cac0c245ed5dd9555d26f19f649bb794e7668ee4da3c86ff0055db98",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-break-priority-L3-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-break-priority-L3-1.receipt.json",
+          "receipt_sha256": "34b5171ebf6e114920f40ce414cbe545fdd6f8342c7a15f5ba02c0e79cb51635"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/correction.txt",
+          "produced_by": "runner-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "df05694b8b62a70fe4c97166d020cdfb42340eafaff1d74372d153d22931e473",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-break-priority-L4-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "review_path": "cases/composition/fixtures/cp-break-priority-L4-0-review.json",
+          "review_sha256": "9454a940fec89fb867d127c80d78cbacb2ac799ae57f964e0f0e1d44214b6d26",
+          "receipt_path": "cases/composition/fixtures/cp-break-priority-L4-0.receipt.json",
+          "receipt_sha256": "bf23f1fb39c734143f39e7c94ac2ba3f1109597c351f304c268deceb24b3f890"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "incident-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-break-priority-incidents.json",
+          "produced_by": "runner-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "6c0253cca9ab33a6ea43dc38b39b8196cddfb0391f169f1be33dc5a292a1bd59",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-break-priority-L4-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "review_path": "cases/composition/fixtures/cp-break-priority-L4-incidents-review.json",
+          "review_sha256": "a49c14b84dcfb9a0a5a9d7bed40440ca247fac9449bbf403ad3f2d59f1db8ec4",
+          "receipt_path": "cases/composition/fixtures/cp-break-priority-L4-1.receipt.json",
+          "receipt_sha256": "e639d26cf0a767e77b9c9ace307fd0f6a811015df0b0b400a4ddb6697681437a"
+        }
+      ]
+    }
+  }
+}

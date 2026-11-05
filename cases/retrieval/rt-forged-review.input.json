@@ -1,0 +1,92 @@
+{
+  "claim": "裁决复核人和检索执行人是同一个人",
+  "claimed_level": "L4",
+  "id": "rt-forged-review",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-forged-review-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4809fc45c8b19eda078a60266e24994c6dec2306f1d9d8becfce37c8413cf258",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/rt-forged-review-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "2f46413bd6427562eb2ea24aac32596de92a54f72628894972390b2fb885b83c",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "command": [
+            "py",
+            "-3",
+            "check"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T00:00:01Z",
+          "kind": "authority-record",
+          "output_summary": "checked",
+          "path": "cases/retrieval/fixtures/rt-forged-review-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "worker-a",
+          "sha256": "3f99e37b6a6d0c857335c214c809bd16fdedab279f9074fc7be8cb57e58dddf9",
+          "started_at": "2026-01-15T00:00:00Z",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "output_path": "cases/retrieval/fixtures/rt-forged-review-L3-out-0.txt",
+          "output_sha256": "77c2ca150b61c7330da139378ffd3940d093f1bd74a1294689345d27e15b5124",
+          "review_path": "cases/retrieval/fixtures/rt-forged-review-L3-0-review.json",
+          "review_sha256": "b0f70a30298ef4ed8ecca018fc98d48aeb27ae03a431c31d09a507be7d3cc8a1"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-forged-review-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "a8fefb21abcc9d98d68018574d729750089af0712e0e8e53f7b2f6c8b8b2084d",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-forged-review L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-forged-review-L4-out-0.txt",
+          "output_sha256": "b7a695d94f076518fceee58884cebcfdc440643320e7adb2757130434e469b43",
+          "review_path": "cases/retrieval/fixtures/rt-forged-review-L4-0-review.json",
+          "review_sha256": "f1ec4790ed74d3e0c3603c5d07c067ec314c0d45be4abfd2f22b5a513d21bb72",
+          "receipt_path": "cases/retrieval/fixtures/rt-forged-review-L4-0.receipt.json",
+          "receipt_sha256": "3fb954f29e0f777d4f458b07712acac71cfa2416ccbef7a6ea03c98744127eae"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "lc-pass-heldout",
+  "claim_sha256": "8e3935da6c4854795f1b1ff5f1a968f2c4016e5d6a9df9aa4793aebdf87024c3",
+  "conclusion": "accept",
+  "evidence_sha256": "c7a1e45fcbde6909cd0cf1e5f3e3d6c569888e55b8594290cc905b7c35804eae",
+  "reviewer": "reviewer-b",
+  "signature": "f9e8b53fafa949a8ab4681e7df46c7fcdc1b761777a2c34efa20e17db3021fb9"
+}

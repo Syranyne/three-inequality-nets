@@ -1,0 +1,105 @@
+{
+  "claim": "重复交付、用户回访和市场对照都在",
+  "claimed_level": "L4",
+  "id": "pd-pass-benchmark",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "real_user_signal": true,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-pass-benchmark-users.json",
+    "user_signal_sha256": "8deba7bcc4575b0d69a46150b7ce9472d9e5b49d2e6694d03505fd7dccf8588c",
+    "user_sample_size": 30,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/pd-pass-benchmark-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/pd-pass-benchmark-baseline.json",
+        "source_sha256": "2fdb8ece464aaece92d06b6f66fdf5ac230630d4504cb252227f0cc5ad335364"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/pd-pass-benchmark-competitor.json",
+          "source_sha256": "9d81d8c46520c7979cfa7074e7be43f8846eea59122ba84eadf99ecbb0c0c5ae"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/pd-pass-benchmark-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "99f381ddf4f952f75d17abfcb0c0e2646e7936d084549613f48ab4ddce69cc76",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "release-record",
+          "path": "cases/production/fixtures/pd-pass-benchmark-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "1f82f4a9dcd044c5fae2fb03a2c3658dea3305be2e3149c41687cb9aa89ad956",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "user-evaluation",
+          "path": "cases/production/fixtures/pd-pass-benchmark-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "662dd9c4f19707778b81e1a1cae1fc263596254ab5b5cf470c8c972d2caf7460",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/pd-pass-benchmark-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "3819022bed17bdd41edfae8d9513330e423817d3ee08f86854dd7357c0152b53",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "pd-pass-benchmark L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/pd-pass-benchmark-L4-out-0.txt",
+          "output_sha256": "b16e44945fa63b4483f6bb84e9441e740ea14cdb2ded4f1e086baff7419528a9",
+          "review_path": "cases/production/fixtures/pd-pass-benchmark-L4-0-review.json",
+          "review_sha256": "b5475da71befb5a7fd85421c9a45d2b1124ba7e83d0dc35894fb02617efce156",
+          "receipt_path": "cases/production/fixtures/pd-pass-benchmark-L4-0.receipt.json",
+          "receipt_sha256": "f5eaa666a2b26035fda4b44827451e35795e1c58b7b51050eafcb618e03e189a"
+        }
+      ]
+    }
+  }
+}

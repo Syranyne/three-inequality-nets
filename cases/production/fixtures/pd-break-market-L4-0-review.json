@@ -1,0 +1,8 @@
+{
+  "case_id": "pd-break-market",
+  "claim_sha256": "c88741d6dd4625b456a3cf557c87bda70f1a5410f31c3194d108c96516e16bf4",
+  "conclusion": "accept",
+  "evidence_sha256": "3e2e16cdb127984d987ab9df151165d7ce82daa6977256b76156572e8470cd07",
+  "reviewer": "reviewer-b",
+  "signature": "324865ed558f62aa23e467e4d5c02c8526d19afe2f3626c3e1d844c641367a6a"
+}

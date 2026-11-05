@@ -1,0 +1,77 @@
+{
+  "claim": "命中文件的摘要对不上",
+  "claimed_level": "L4",
+  "id": "rt-forged-hash",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-forged-hash-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "aa9ffb02e13604428fda10540d06b37f205d4309d6ab2132afc254ba561e50be",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/rt-forged-hash-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "dc3c8850b0cfa345a013b3ff7cf2ba78d895cb05cbf4745bbf499d46e5688311",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "authority-record",
+          "path": "cases/retrieval/fixtures/rt-forged-hash-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "0092a50ceb9fc6f06d629232af56b5d72688892a6283e4179a1b5e5ce01f710b",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-forged-hash-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-forged-hash L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-forged-hash-L4-out-0.txt",
+          "output_sha256": "b4ba43f031971250788d300e18e1d7c6fa5a24db510923bc84e6bebbc71b76e2",
+          "review_path": "cases/retrieval/fixtures/rt-forged-hash-L4-0-review.json",
+          "review_sha256": "58e72bcf55fdde809a1807653a4a8e04689a3812fbb279a55a1487fcdb5b4ab8"
+        }
+      ]
+    }
+  }
+}

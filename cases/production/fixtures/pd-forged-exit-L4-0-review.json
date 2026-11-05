@@ -1,0 +1,8 @@
+{
+  "case_id": "pd-forged-exit",
+  "claim_sha256": "063b13a1910da815ca0c2f0f8a543c202b5d325e88da45164a15a7f22ac3ca0f",
+  "conclusion": "accept",
+  "evidence_sha256": "6c9d7c37d09db6c8c3d62e58e24b0946c2975d21e2f827f4b58c1b46c9c84a2e",
+  "reviewer": "reviewer-b",
+  "signature": "980c55795f12c2c71573c8930d4d622c752f91ffd273599d286beea96d26a8c1"
+}

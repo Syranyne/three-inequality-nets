@@ -1,0 +1,19 @@
+{
+  "case_id": "template-learning_claim",
+  "claim_sha256": "c813407337d97b9aac8aaf9ed3fe96c64d6e1e474a492ddd18215b3f58b8e19d",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "4fab7ecb145f6906aa0748cb639591e02f34b2fa808d1a5a47c25b0d87d9d618",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "9f2a59a60e65fbcd5a3e1b7248adf92890ce3a32b19e43fb4751c2657196de13",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "b46e7703c451b451ef90b5d0b4533324692473fa0c6ff4a3e6edfc7e6413e243",
+  "started_at": "2026-01-15T00:00:00Z"
+}

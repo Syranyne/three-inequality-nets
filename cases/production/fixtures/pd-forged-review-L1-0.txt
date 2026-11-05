@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "sample-record",
+  "stage": "L1",
+  "note": "pd-forged-review:L1-0:cases/shared/record.txt"
+}

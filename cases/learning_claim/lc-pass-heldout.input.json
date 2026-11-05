@@ -1,0 +1,83 @@
+{
+  "claim": "拒答纠正进了样本库，标注和留出测试都对得上",
+  "claimed_level": "L4",
+  "id": "lc-pass-heldout",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": true,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/lc-pass-heldout-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "501619ce3d56b1670bcaf0ae0ab6d8e0ac9b70bf664eff147e6560b953a6843d",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "dataset-record",
+          "path": "cases/learning_claim/fixtures/lc-pass-heldout-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "05b5f7ed562db5b21b97e87b51ba50ebdfbb3562ed1b549757151a5f5e275abd",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "label-record",
+          "path": "cases/learning_claim/fixtures/lc-pass-heldout-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "52fba9001be47a10749cf6626fe881baa431e827f7497d92a2391a776887dc07",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/lc-pass-heldout-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "c7a1e45fcbde6909cd0cf1e5f3e3d6c569888e55b8594290cc905b7c35804eae",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "lc-pass-heldout L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/lc-pass-heldout-L4-out-0.txt",
+          "output_sha256": "b6376f17b3a1997786593d0c5901cfb4c454e7a872bd0cb0000af22af44c2fd9",
+          "review_path": "cases/learning_claim/fixtures/lc-pass-heldout-L4-0-review.json",
+          "review_sha256": "7a20589f4aa234817b19904b7ea2ebf488f6753f81e3a48b0ac4f2e4e667640d",
+          "receipt_path": "cases/learning_claim/fixtures/lc-pass-heldout-L4-0.receipt.json",
+          "receipt_sha256": "cd2839685156d8091ea4def556e6b19711bc371bd51d072f708a7ca41e4d4cb3"
+        }
+      ]
+    }
+  }
+}

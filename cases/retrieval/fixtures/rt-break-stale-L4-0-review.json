@@ -1,0 +1,8 @@
+{
+  "case_id": "rt-break-stale",
+  "claim_sha256": "11b1def6129236ab3ba4b5125c61433dd6d2f16a8d8cb3258a727537861767d8",
+  "conclusion": "accept",
+  "evidence_sha256": "8935ec7b60fd3d617669574b56b5a7aaeb1b24130823429d30e5520eec072eef",
+  "reviewer": "reviewer-b",
+  "signature": "89695ddb18d7410bac5717f6b8f174a3282e545ceaaa7fd8e10dfe740bec46e4"
+}

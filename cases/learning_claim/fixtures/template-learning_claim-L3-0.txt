@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "label-record",
+  "stage": "L3",
+  "note": "template-learning_claim:L3:0"
+}

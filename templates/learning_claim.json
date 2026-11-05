@@ -1,0 +1,83 @@
+{
+  "claim": "四个环节的证据都在",
+  "claimed_level": "L4",
+  "id": "template-learning_claim",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": true,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/template-learning_claim-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "7ac66ad82fd50ba2ebdcd6bf17f5d8285809d4e716607d195c73fe755e228097",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "dataset-record",
+          "path": "cases/learning_claim/fixtures/template-learning_claim-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "e0f3093163c75a3ab375c5560c567b9db8eed7d1369facc97690305daa1c6a72",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "label-record",
+          "path": "cases/learning_claim/fixtures/template-learning_claim-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "a922c7f7e36bd4dbc269a3ba0eb8e0fa0c8f67278668d68b0fe09c491380779e",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/template-learning_claim-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "4fab7ecb145f6906aa0748cb639591e02f34b2fa808d1a5a47c25b0d87d9d618",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "ok",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/template-learning_claim-L4-out-0.txt",
+          "output_sha256": "9f2a59a60e65fbcd5a3e1b7248adf92890ce3a32b19e43fb4751c2657196de13",
+          "review_path": "cases/learning_claim/fixtures/template-learning_claim-L4-0-review.json",
+          "review_sha256": "d4e4289c2dfb1542ab8f6227e34f0c7bd40fd9ea76c94bd1682507a5dae85e9b",
+          "receipt_path": "templates/fixtures/template-learning_claim-L4-0.receipt.json",
+          "receipt_sha256": "0c1bea057efd214a145500a9049ec60dbd768450b0d893ff999050f95f6588d1"
+        }
+      ]
+    }
+  }
+}

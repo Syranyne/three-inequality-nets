@@ -1,0 +1,89 @@
+{
+  "claim": "两份同级说明互相矛盾，替代关系写不出来",
+  "claimed_level": "L4",
+  "id": "rt-unexplained",
+  "net": "retrieval",
+  "outside_model": true,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-unexplained-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "cbe653c78b51d6551822ff0511137d8fe0a530563a4726e4a676d47200ffdcf0",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/rt-unexplained-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "98aacd85a955c7714f46ad707a8cf70dd921b70624c22303746fc7a0dbc0e30b",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "authority-record",
+          "path": "cases/retrieval/fixtures/rt-unexplained-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "614ebe8cd8232c35a6e573c5f1c2c5df9e91292fd6e9346d72b7c6be1c8622d0",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-unexplained-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "9019b46849225dc549af8125568f9f87dd655d0e7eb5cc6d656648337d30cfea",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-unexplained L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-unexplained-L4-out-0.txt",
+          "output_sha256": "12b9a23da061dbe28c8fd6aa0aa475f7ac977990c17c8f6e2041f01cf90ef774",
+          "review_path": "cases/retrieval/fixtures/rt-unexplained-L4-0-review.json",
+          "review_sha256": "4217e2e1dde9c0a4807cda384539b556b262af01b3bea53cdcb3ce1998cac711",
+          "receipt_path": "cases/retrieval/fixtures/rt-unexplained-L4-0.receipt.json",
+          "receipt_sha256": "d151efb9ebddf4280de14e25cc833151e64deb46708dff375c43cdf3b30cf24e"
+        }
+      ]
+    }
+  },
+  "unexplained": {
+    "excluded_links": [
+      "检索命中→语义理解",
+      "语义理解→权威裁决",
+      "权威裁决→施工结论"
+    ],
+    "phenomenon": "A synthetic incident persists beyond the established local checks.",
+    "source_ref": "cases/shared/record.txt",
+    "source_sha256": "40271e88b3f4c0d99b4452050a48c9a2eb92ef8a07a2e6a81ceef8402ae740fc"
+  }
+}

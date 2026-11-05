@@ -1,0 +1,1 @@
+Synthetic tool trials: each capability passed ten solo runs.

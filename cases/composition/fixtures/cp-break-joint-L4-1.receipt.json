@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-break-joint",
+  "claim_sha256": "df172866d51d1509c7fad3d1026082e4dee095f688d3b93185e706dfce311e1f",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "e5b4a7a7953f2b18ad67cbcb6a8b977ed3f77236917089fbcba7d0dd2295c8ae",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "64726a8728460264e5b373480d7a279e96a0b2d6e341cb8122a283edd3ac0b63",
+  "started_at": "2026-01-15T00:00:00Z"
+}

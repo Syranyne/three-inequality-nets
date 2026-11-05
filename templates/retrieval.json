@@ -1,0 +1,79 @@
+{
+  "claim": "四个环节的证据都在",
+  "claimed_level": "L4",
+  "id": "template-retrieval",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/template-retrieval-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "fdd1c53439006078d4f69584e898c718347279ae6f2be2c2467978ee44f05430",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/template-retrieval-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4dcac4e7c04233d28ab6ab49e2b5a1b18e951d3a2f62343ca910501b1e20c7fc",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "authority-record",
+          "path": "cases/retrieval/fixtures/template-retrieval-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "05e0f7f5040803beebb0a8f9beadf110f661dc81db5345cb6a5730792de58806",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/template-retrieval-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "b94653de7043b3637e6f537c3dec2074c6d8d47688f1befef3c892f8ea9575ef",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "ok",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/template-retrieval-L4-out-0.txt",
+          "output_sha256": "9f2a59a60e65fbcd5a3e1b7248adf92890ce3a32b19e43fb4751c2657196de13",
+          "review_path": "cases/retrieval/fixtures/template-retrieval-L4-0-review.json",
+          "review_sha256": "1868c7d0c8f2050fe3a8ec0bd98a295a223802ea25edebfd862b06575c9fa0f9",
+          "receipt_path": "templates/fixtures/template-retrieval-L4-0.receipt.json",
+          "receipt_sha256": "d40a49b107ccdb2350f33cf71e9f4b54f226febb8af160e6a6f4fcec3c6dff40"
+        }
+      ]
+    }
+  }
+}

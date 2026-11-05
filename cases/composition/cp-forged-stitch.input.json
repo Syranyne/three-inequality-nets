@@ -1,0 +1,488 @@
+{
+  "claimed_level": "L4",
+  "id": "cp-forged-stitch",
+  "net": "composition",
+  "observations": {
+    "capabilities": [
+      "code",
+      "docs"
+    ],
+    "conflicts": [
+      {
+        "capabilities": [
+          "code",
+          "docs"
+        ],
+        "chosen": "code",
+        "conflict_id": "conflict-1",
+        "episode_id": "joint-1",
+        "expected_winner": "code",
+        "injected": true,
+        "loser_handling": "deferred",
+        "started_at": "2026-01-15T10:10:00Z"
+      },
+      {
+        "capabilities": [
+          "code",
+          "docs"
+        ],
+        "chosen": "code",
+        "conflict_id": "conflict-2",
+        "episode_id": "joint-2",
+        "expected_winner": "code",
+        "injected": false,
+        "loser_handling": "deferred",
+        "started_at": "2026-01-15T11:10:00Z"
+      }
+    ],
+    "incidents": [
+      {
+        "action_id": "change-1",
+        "baseline": 0,
+        "consequence_at": "2026-01-15T10:06:00Z",
+        "consequence_metric": "error-count",
+        "corrected_at": "2026-01-15T10:09:00Z",
+        "correction_action_id": "repair-1",
+        "detected_at": "2026-01-15T10:08:00Z",
+        "detected_by": "self",
+        "episode_id": "joint-1",
+        "hints": [],
+        "incident_id": "incident-1",
+        "observed": 4,
+        "recheck": {
+          "at": "2026-01-15T20:00:00Z",
+          "joint_episode_id": "joint-10",
+          "metric_value": 0,
+          "tolerance": 0.5,
+          "verified_by": "reviewer-b"
+        },
+        "detection_log_ref": "cases/composition/fixtures/cp-forged-stitch-detection-0.jsonl",
+        "detection_log_sha256": "740a73d89cf88996834961ab8416b9ba3508f42ff37493741400cb33bd62784a"
+      }
+    ],
+    "joint": {
+      "episodes": [
+        {
+          "actions": [
+            {
+              "action_id": "change-1",
+              "actor": "self",
+              "at": "2026-01-15T10:05:00Z"
+            },
+            {
+              "action_id": "repair-1",
+              "actor": "self",
+              "at": "2026-01-15T10:09:00Z"
+            }
+          ],
+          "episode_id": "joint-1",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T10:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T10:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T10:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-2",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T11:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T11:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T11:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T11:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "solo-code-0",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T12:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T12:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T12:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T12:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-4",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T13:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T13:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T13:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T13:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-5",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T14:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T14:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T14:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T14:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-6",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T15:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T15:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T15:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T15:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-7",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T16:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T16:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T16:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T16:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-8",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T17:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T17:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T17:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T17:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-9",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T18:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T18:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T18:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T18:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-10",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T19:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T19:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T19:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T19:01:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    "policy": {
+      "declared_at": "2026-01-14T00:00:00Z",
+      "order": [
+        "code",
+        "docs"
+      ],
+      "policy_id": "priority-1",
+      "rules": [
+        {
+          "when": [
+            "code",
+            "docs"
+          ],
+          "winner": "code"
+        }
+      ],
+      "sha256": "9b8df6c11cef2d7da32b87c51350dba54f72178a2779ce2ad31a2af2c05ad080"
+    },
+    "solo": {
+      "code": {
+        "passes": 10,
+        "run_ids": [
+          "solo-code-0",
+          "solo-code-1",
+          "solo-code-2",
+          "solo-code-3",
+          "solo-code-4",
+          "solo-code-5",
+          "solo-code-6",
+          "solo-code-7",
+          "solo-code-8",
+          "solo-code-9"
+        ],
+        "runs": 10
+      },
+      "docs": {
+        "passes": 10,
+        "run_ids": [
+          "solo-docs-0",
+          "solo-docs-1",
+          "solo-docs-2",
+          "solo-docs-3",
+          "solo-docs-4",
+          "solo-docs-5",
+          "solo-docs-6",
+          "solo-docs-7",
+          "solo-docs-8",
+          "solo-docs-9"
+        ],
+        "runs": 10
+      }
+    },
+    "thresholds": {
+      "max_joint_drop": 0.1,
+      "min_conflicts": 2,
+      "min_pass_rate": 0.8,
+      "min_runs": 5
+    },
+    "subject_id": "self"
+  },
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/solo.txt",
+          "produced_by": "runner-a",
+          "sha256": "c0ca3d2a348ae6127923422ef4e0adabe66de1f7e3838743cbf14ebbe4246adb",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-forged-stitch-L1-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-forged-stitch-L1-0.receipt.json",
+          "receipt_sha256": "ac64fa1c4d71ab568ccedebf83fcfa69de7d4bbc022c1dbde6e046e878003e4a"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "solo-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-forged-stitch-solo.json",
+          "produced_by": "runner-a",
+          "sha256": "5f453b1a43134186142e32f0bcdccccbf6bc7212c9ca7cae65b38a05cd8ed48b",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-forged-stitch-L1-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-forged-stitch-L1-1.receipt.json",
+          "receipt_sha256": "5a78e0fdcb7c42924b45a8ba306adbf8e3d835e1edb4f273ca08e8cfe412f4d5"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/joint.txt",
+          "produced_by": "runner-a",
+          "sha256": "680158164a7e23e23860b6e2665f680d41c3317dd4106dbdcb95f9be01019a69",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-forged-stitch-L2-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-forged-stitch-L2-0.receipt.json",
+          "receipt_sha256": "ed74d2858db69ce2b8106dfb0fe45976b5740dfbf3b6e271b29a37e5865f6fc3"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "joint-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-forged-stitch-joint.json",
+          "produced_by": "runner-a",
+          "sha256": "bdbe0838fb6d245f5243ecba3a97cd12d36f6bee0420a03beaee21e569fff2fd",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-forged-stitch-L2-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-forged-stitch-L2-1.receipt.json",
+          "receipt_sha256": "a4729eae8cfeab5262c363fe242644dd8f700d528cb5510ce6e7f858c30e932e"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "priority-policy",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/policy.json",
+          "produced_by": "runner-a",
+          "sha256": "9b8df6c11cef2d7da32b87c51350dba54f72178a2779ce2ad31a2af2c05ad080",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-forged-stitch-L3-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-forged-stitch-L3-0.receipt.json",
+          "receipt_sha256": "03caf29a0cc104a2a08cd321a3c4b1d323c667fa9a02890bf1b8d89454e93867"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "conflict-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-forged-stitch-conflicts.json",
+          "produced_by": "runner-a",
+          "sha256": "4d6e73ff65c4cd69927e9cd88a7d552aef11dcde8ea1fa381f2d453438b69eab",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-forged-stitch-L3-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-forged-stitch-L3-1.receipt.json",
+          "receipt_sha256": "f584cd2630f876ded2f26be7c59e19895cc56079996ee0a7ec882567ce518712"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/correction.txt",
+          "produced_by": "runner-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "df05694b8b62a70fe4c97166d020cdfb42340eafaff1d74372d153d22931e473",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-forged-stitch-L4-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "review_path": "cases/composition/fixtures/cp-forged-stitch-L4-0-review.json",
+          "review_sha256": "0414c7405fa03476e4bb0c0132747d338e71306beede7ec5ed4694ccbfa8967c",
+          "receipt_path": "cases/composition/fixtures/cp-forged-stitch-L4-0.receipt.json",
+          "receipt_sha256": "3319fa7b7d7c0c1daeee66aa433dc6866dde8f8ceb65e34830fdec5936d59a23"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "incident-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-forged-stitch-incidents.json",
+          "produced_by": "runner-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "0be42028bee4c9951d581b83df9a9360ec5e93e01eb5c8433247aef6eff07b5f",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-forged-stitch-L4-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "review_path": "cases/composition/fixtures/cp-forged-stitch-L4-incidents-review.json",
+          "review_sha256": "37fff790d41658518286f996df2938b570c37503f68b1b6cdb4a2a2eae89cc60",
+          "receipt_path": "cases/composition/fixtures/cp-forged-stitch-L4-1.receipt.json",
+          "receipt_sha256": "9748c7dd8ffd25f3a656483eb7602e9a557a27211ad72dfddae6824c90dac06d"
+        }
+      ]
+    }
+  }
+}

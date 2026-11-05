@@ -1,0 +1,79 @@
+{
+  "claim": "另一份当前说明的条件也满足",
+  "claimed_level": "L4",
+  "id": "rt-pass-return",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-pass-return-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4a3565bcabda0b84dc985989f9c9835fbe21334084e70af01bd7827313f465aa",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/rt-pass-return-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "c9321fd9b2fdebc1536ee28417e18556228011844a515d5c07c97f223814a130",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "authority-record",
+          "path": "cases/retrieval/fixtures/rt-pass-return-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "0715cd12d2aade049af5a790bb3b56b117cea6ede861fb33087887114cacc3ea",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-pass-return-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "5b53263ceb2c1b69cffba3e0030a8cade5a46b8866a0ef003ea29f63c5b3d8f7",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-pass-return L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-pass-return-L4-out-0.txt",
+          "output_sha256": "66b153f80886a70b81bda6954869013d9f58f4241217ccff9883a12f1b6087f6",
+          "review_path": "cases/retrieval/fixtures/rt-pass-return-L4-0-review.json",
+          "review_sha256": "9d52d363bc6e891d99723224df7639b706119e8de0d969343413ea3606cb027b",
+          "receipt_path": "cases/retrieval/fixtures/rt-pass-return-L4-0.receipt.json",
+          "receipt_sha256": "47ecaa2eb2af1529586d4dbaf9e06d02e24611aa9714259466e9812aef77b572"
+        }
+      ]
+    }
+  }
+}

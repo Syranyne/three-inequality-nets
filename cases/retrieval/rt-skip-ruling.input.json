@@ -1,0 +1,70 @@
+{
+  "claim": "理解有了，裁决环节是空的，施工记录却在",
+  "claimed_level": "L4",
+  "id": "rt-skip-ruling",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-skip-ruling-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "7797ea2d9b102a68d906efaea732e1367c243cd59c0c8697788c7e219cc3362f",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/rt-skip-ruling-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "2f7210c5fbebe63fd70720f79ece709a71673179e27f681931a1ce8a3969ec57",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": []
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-skip-ruling-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "19a35cdfab2dd6e0c350afcb37bd641443f1ef38ba29cf8f4ae943a44c857c5f",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-skip-ruling L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-skip-ruling-L4-out-0.txt",
+          "output_sha256": "0dadc996a56adb60b76d28d6a3853f48a1eed3869812853c15fc8187c7b49cdd",
+          "review_path": "cases/retrieval/fixtures/rt-skip-ruling-L4-0-review.json",
+          "review_sha256": "758823bd9a57a1bc87604479dd4b07e4bf71179014666532114fef127e0f9360",
+          "receipt_path": "cases/retrieval/fixtures/rt-skip-ruling-L4-0.receipt.json",
+          "receipt_sha256": "8fee27e0ea1809f44b0537bd7da8c2a9da13e822f6a60ccdbffb5b2557743c9c"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-unexplained",
+  "claim_sha256": "246f97c7888fec44a2f3e812bbf0c30179b6452dfa29adc1cab569efafb3da63",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "a7e2c608a72b2707f4411d6cf4423ac7f95fb198ea6d1042d0743c96ada4a938",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "db7dc22e4f003b8499fc43c8efca5a34c7fe62427e52f465161afa8e0a8c3aca",
+  "started_at": "2026-01-15T00:00:00Z"
+}

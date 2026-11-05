@@ -1,0 +1,118 @@
+{
+  "claim": "交付复核人和执行人是同一个人",
+  "claimed_level": "L4",
+  "id": "pd-forged-review",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "real_user_signal": true,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-forged-review-users.json",
+    "user_signal_sha256": "2d74e352d5b5ea7a3b53b9d105d155da7ffaa751876a355225690d1ac45ac852",
+    "user_sample_size": 30,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/pd-forged-review-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/pd-forged-review-baseline.json",
+        "source_sha256": "2ff2b484c56d865b26caf8f3def766c6614f6f11c2953e280f3dd5d95a486b97"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/pd-forged-review-competitor.json",
+          "source_sha256": "5e7ec95488fa86072bbd00d65c1959acfe39008ab365b8dc18ee12be0adee20c"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/pd-forged-review-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "38973d2f6ebf781f6857a12ce3038cea59876a3d3409dea266d5711121e1921f",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "release-record",
+          "path": "cases/production/fixtures/pd-forged-review-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "b74aa288c1d3f6f8cf4c24afe5b0614981cbce6ff654182a06722bac658d45a6",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "command": [
+            "py",
+            "-3",
+            "check"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T00:00:01Z",
+          "kind": "user-evaluation",
+          "output_summary": "checked",
+          "path": "cases/production/fixtures/pd-forged-review-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "worker-a",
+          "sha256": "7d912f8e57d5b3f072073831bb52360fd5302339e2e0b38c9f198992a6471f46",
+          "started_at": "2026-01-15T00:00:00Z",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "output_path": "cases/production/fixtures/pd-forged-review-L3-out-0.txt",
+          "output_sha256": "77c2ca150b61c7330da139378ffd3940d093f1bd74a1294689345d27e15b5124",
+          "review_path": "cases/production/fixtures/pd-forged-review-L3-0-review.json",
+          "review_sha256": "b23da7343cc0c9efa4acddadd94781ffa83c1294ea09d25e17932d5e35a674e9"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/pd-forged-review-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "37d529706a5aa55484c5107033876f083858f68dde050984bcd420165a0f6402",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "pd-forged-review L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/pd-forged-review-L4-out-0.txt",
+          "output_sha256": "caf0963d0e6ebcb0fa61e0e5f611d1dcfd407cd41af16acb28c9a22f57a2b7c5",
+          "review_path": "cases/production/fixtures/pd-forged-review-L4-0-review.json",
+          "review_sha256": "ffac7d80bb9519eba71440a913885547e12d051adcd8abd6577b436f5cbe6f73",
+          "receipt_path": "cases/production/fixtures/pd-forged-review-L4-0.receipt.json",
+          "receipt_sha256": "91ad705133277d54da07dff978308f1f56ef27a25e08b1c97b4f922ef2a3f5b7"
+        }
+      ]
+    }
+  }
+}

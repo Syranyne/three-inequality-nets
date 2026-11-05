@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "conditions-record",
+  "stage": "L4",
+  "note": "rt-break-stale:L4-0:cases/shared/record.txt"
+}

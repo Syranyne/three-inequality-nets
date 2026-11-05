@@ -1,0 +1,97 @@
+{
+  "claim": "复核人和执行人是同一个人",
+  "claimed_level": "L4",
+  "id": "au-forged-review",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": true,
+    "injected_authorization": false,
+    "sender": "agent-a",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-forged-review-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "1073ebc14a2f94a93f97424fa5ef16d2c6cfe7b4e46cd82f79975d91f6403e43",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/au-forged-review-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "357b1c021aa70a4443c1589219ec9b7310b0dffee70b78fa7bc826a83609b5e2",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "command": [
+            "py",
+            "-3",
+            "check"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T00:00:01Z",
+          "kind": "fact-check-record",
+          "output_summary": "checked",
+          "path": "cases/authority/fixtures/au-forged-review-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "worker-a",
+          "sha256": "0fdd254211d1bdb27f1d923df6ebde48b8b3092f76034f3cd52cd621fb149b5a",
+          "started_at": "2026-01-15T00:00:00Z",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "output_path": "cases/authority/fixtures/au-forged-review-L3-out-0.txt",
+          "output_sha256": "77c2ca150b61c7330da139378ffd3940d093f1bd74a1294689345d27e15b5124",
+          "review_path": "cases/authority/fixtures/au-forged-review-L3-0-review.json",
+          "review_sha256": "99d614c540c3864118e1243a870edb6734eb79aefc5512fd1f4655d9f97828bd"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-forged-review-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "90ae23d5b1d2e987857239cf9e8e8da2d4557f6a5699eb2f82b41e4d2a6ba65c",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-forged-review L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-forged-review-L4-out-0.txt",
+          "output_sha256": "a952a55040c8d9ba0223d536bbbd2a365e7cd206dfa378dcb7aeb46e9b14fd43",
+          "review_path": "cases/authority/fixtures/au-forged-review-L4-0-review.json",
+          "review_sha256": "5c8e9b87c338b69256360008a37ce4863eccdbdab4744260397b9d5b6d19f92c",
+          "receipt_path": "cases/authority/fixtures/au-forged-review-L4-0.receipt.json",
+          "receipt_sha256": "e1382f034dfdde2dda45fc8e46a1341977e791dda7386b29e994800a8445f912"
+        }
+      ]
+    }
+  }
+}

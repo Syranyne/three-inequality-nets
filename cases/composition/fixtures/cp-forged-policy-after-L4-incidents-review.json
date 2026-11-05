@@ -1,0 +1,8 @@
+{
+  "case_id": "cp-forged-policy-after",
+  "claim_sha256": "61a625bcc2a0f161afb7f28ae27e7fc32171b056800957a8c3123c8397b15f2a",
+  "conclusion": "accept",
+  "evidence_sha256": "530e346973771eb374267df9db1ebc60fbfc49129f47fb5d342da8620bc62186",
+  "reviewer": "reviewer-b",
+  "signature": "4a4d21e6ff9695ed5966aaeaa3e7ac46bee4cd0c138d4e550931833a795c8b6f"
+}

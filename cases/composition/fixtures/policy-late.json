@@ -1,0 +1,17 @@
+{
+  "declared_at": "2026-01-15T12:00:00Z",
+  "order": [
+    "code",
+    "docs"
+  ],
+  "policy_id": "priority-1",
+  "rules": [
+    {
+      "when": [
+        "code",
+        "docs"
+      ],
+      "winner": "code"
+    }
+  ]
+}

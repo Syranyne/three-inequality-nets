@@ -1,0 +1,17 @@
+{
+  "case_id": "demo-c8",
+  "claim_sha256": "c3f73eb1fd93252fa8f3fc39b89b5f76564b120e68531cb9d34e301d40c7e92b",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "591abef73b583a2ad3d56b9304c2c576f1f63af8acea15c21b2334366c9c8de9",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "142de4b559b356dca708aa2e6fef415c518dde9293719d3ae76a49005fa77c54",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "63c3942dbb7ec43aa0079a5bfddf01b090b8779cf7bc382eb64ab28c798aa663",
+  "started_at": "2026-01-15T00:00:00Z"
+}

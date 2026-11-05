@@ -1,0 +1,17 @@
+{
+  "case_id": "composition-template",
+  "claim_sha256": "3cc10f41ea7ae4390d0bd02b7f2c652c1d1dbd3d2372e7df442af1c340449595",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "2b1912d74ac0b496105219163501d022801cca0fe7f5d11a8a663014eb96ce74",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "b963820dd3a14f315ed13e94392cbff808b396becd5edd549b515c1d1dc60ac7",
+  "started_at": "2026-01-15T00:00:00Z"
+}

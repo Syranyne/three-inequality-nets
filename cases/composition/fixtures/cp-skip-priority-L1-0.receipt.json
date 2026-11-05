@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-skip-priority",
+  "claim_sha256": "10f6e2f91279fda6853b7b137c10fe7b41c3348983eae790f362ad3e6ba4b1ee",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "c0ca3d2a348ae6127923422ef4e0adabe66de1f7e3838743cbf14ebbe4246adb",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "6702a797e184e7f8a42505d0cf00d5a38b9c1f782da151126f48b72ccafed02b",
+  "started_at": "2026-01-15T00:00:00Z"
+}

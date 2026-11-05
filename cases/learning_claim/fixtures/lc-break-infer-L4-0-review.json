@@ -1,0 +1,8 @@
+{
+  "case_id": "lc-break-infer",
+  "claim_sha256": "7c31f3627716759f69ff73a4bbc3c61e97c67ab330c242814177e2cd0f9f8ffc",
+  "conclusion": "accept",
+  "evidence_sha256": "44dbae3c53e4550bc627601900c592734e44f633c027c4a91024e982a2afa546",
+  "reviewer": "reviewer-b",
+  "signature": "30f669358dec0de641ce736037a163461968e33a27cef3a9ff291e5756567ed7"
+}

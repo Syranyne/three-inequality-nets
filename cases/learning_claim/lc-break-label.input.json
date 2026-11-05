@@ -1,0 +1,83 @@
+{
+  "claim": "标签方向和原话相反",
+  "claimed_level": "L4",
+  "id": "lc-break-label",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": true,
+    "label_matches": false,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/lc-break-label-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "040da2f2926ea637d9c6bc95a134946df01be7671b9ddc98450a035d8468a597",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "dataset-record",
+          "path": "cases/learning_claim/fixtures/lc-break-label-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4c06173e9f69e1b567d0ff217fdad32c8f1c110db02091ba1233c1e38bc4afa5",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "label-record",
+          "path": "cases/learning_claim/fixtures/lc-break-label-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "33db787997c950d131c0eacbeecc20501f836a1cb7ebeb1c22395e61b93f116c",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/lc-break-label-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "cf74c18742aa5995f6967a3023d57f3a7cb00d99c522ca765ac668e524f35b29",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "lc-break-label L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/lc-break-label-L4-out-0.txt",
+          "output_sha256": "c6463c25ebd2f4e68c3f0d6fbd478b14e3b14cae7ec6fcd5cc02c56de1e916f8",
+          "review_path": "cases/learning_claim/fixtures/lc-break-label-L4-0-review.json",
+          "review_sha256": "e97ab7a3b51c2f77828e0a5ddabffab56dc68b20f4f7101075f9d9d3666cdfb4",
+          "receipt_path": "cases/learning_claim/fixtures/lc-break-label-L4-0.receipt.json",
+          "receipt_sha256": "a0491454164cae9f978177284fb14020f2b032caaf0bc563137c32c663e878a7"
+        }
+      ]
+    }
+  }
+}

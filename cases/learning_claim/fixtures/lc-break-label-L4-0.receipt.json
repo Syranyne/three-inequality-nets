@@ -1,0 +1,19 @@
+{
+  "case_id": "lc-break-label",
+  "claim_sha256": "875ab0774e612ee31f073ed09630d145fc3636798ae17c5d0b855435b6fc1d2f",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "cf74c18742aa5995f6967a3023d57f3a7cb00d99c522ca765ac668e524f35b29",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "c6463c25ebd2f4e68c3f0d6fbd478b14e3b14cae7ec6fcd5cc02c56de1e916f8",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "6ff202e8bef4dd772e830ce98b0cbe9d77d4d13821b0713c41c95198e3c6f29f",
+  "started_at": "2026-01-15T00:00:00Z"
+}

@@ -1,0 +1,79 @@
+{
+  "claim": "对象、版本和适用条件都对得上",
+  "claimed_level": "L4",
+  "id": "rt-pass-current",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-pass-current-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "41dabaac5c03a21d3925d5761e18fbefcdf88ccba7212d238b1f16c68ca82d21",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/rt-pass-current-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "2b20479c7e0ddbf7186a6f9df025fe3518d556fd4845012fce81f7f7318ff7d4",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "authority-record",
+          "path": "cases/retrieval/fixtures/rt-pass-current-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "b7029beb2c9a9ea55843d859b98e80914e8d3686743dce63e4b776c07b8011a5",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-pass-current-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "45236180cc8aa9c5553a640208d2fa8e6a0eff712bde9443dff78f71d844ce7c",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-pass-current L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-pass-current-L4-out-0.txt",
+          "output_sha256": "a5698663f33db6b6621e43c686221092c1d347c32a4c0692d8f8f5744d63f80d",
+          "review_path": "cases/retrieval/fixtures/rt-pass-current-L4-0-review.json",
+          "review_sha256": "38d5a4b461bded865c7e70781bef265ad7ec1cf9a794567fa8f0eb3c734b09fc",
+          "receipt_path": "cases/retrieval/fixtures/rt-pass-current-L4-0.receipt.json",
+          "receipt_sha256": "cf82c0e54ae7078f69c116047b2997b7c81955d9613fa020d48e1baa85f5b6c4"
+        }
+      ]
+    }
+  }
+}

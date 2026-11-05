@@ -1,0 +1,1 @@
+Synthetic joint trials: concurrent spans and per-capability outcomes.

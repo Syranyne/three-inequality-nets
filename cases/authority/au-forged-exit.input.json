@@ -1,0 +1,87 @@
+{
+  "claim": "测量记录的退出码是 0，但没有输出",
+  "claimed_level": "L4",
+  "id": "au-forged-exit",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": true,
+    "injected_authorization": false,
+    "sender": "agent-a",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-forged-exit-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "9607459333ea6f3c574c2dc8f803a3892f67b0089a5a07526dd529f5ba377362",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "command": [],
+          "exit_code": 0,
+          "kind": "author-record",
+          "output_summary": "",
+          "path": "cases/authority/fixtures/au-forged-exit-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "c7deaac2a55c8271137a594827ffe70c77f599f82edf9a259cf192da8e0cee71",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "fact-check-record",
+          "path": "cases/authority/fixtures/au-forged-exit-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "6930e96512fab98ca5c33e3c2eb10837e30c4167c194c4c0a28694f1de34b124",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-forged-exit-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "90d8b8a80f6c10425fc9fd5e2acb67223a4c539f30abde5d711f9b804317a73e",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-forged-exit L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-forged-exit-L4-out-0.txt",
+          "output_sha256": "c1c7aba54fc78a955ee4a73019ce758a53db3da69e1fd02dbfaa4870d86abb5d",
+          "review_path": "cases/authority/fixtures/au-forged-exit-L4-0-review.json",
+          "review_sha256": "62cafedb86c6a3651887d18c866367f256cfea5ae49d4a5e7e79f5070f69c4ee",
+          "receipt_path": "cases/authority/fixtures/au-forged-exit-L4-0.receipt.json",
+          "receipt_sha256": "6331e857141d64b43cd7003be54fa6206a059131a48faa4d3a6c664ce8d33e31"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "lc-break-dataset",
+  "claim_sha256": "3b2d91519f106f7695f9353d6ab50187c9d3f7d6533d7f4f4c0d6039fc2c17fb",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "a2dda3b82f0ba47a8bd2cdba50355086736be19be21615e5fda1f140a2b4d10e",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "3a8194123970bba77ea556ec0fb73a0ff11df17cd2268fb3859a533aa3a5efe5",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "2b3fb0d87fac60b0625494a53ee3a71bba3fa686166814c333a95649ff1d144b",
+  "started_at": "2026-01-15T00:00:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "rt-pass-return",
+  "claim_sha256": "d331a429ae54b69295ce3fe5b6bd4abdc133941a8a468f6ee92703bcfe0d1dee",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "5b53263ceb2c1b69cffba3e0030a8cade5a46b8866a0ef003ea29f63c5b3d8f7",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "66b153f80886a70b81bda6954869013d9f58f4241217ccff9883a12f1b6087f6",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "049bc2a52f247725f5b75c1edeab746887e860f31d6ebb8a64094ffc3bcdef60",
+  "started_at": "2026-01-15T00:00:00Z"
+}

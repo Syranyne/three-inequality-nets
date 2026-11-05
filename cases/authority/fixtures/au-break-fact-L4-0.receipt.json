@@ -1,0 +1,19 @@
+{
+  "case_id": "au-break-fact",
+  "claim_sha256": "b8bac911ad250b37ac4dfa4876a055847ac5668e2f52e16b6a2d6ec8ed56a51c",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "601010bee4f7db82a8d8c44db127974ffdc8f4da48789dcd51ca71a4a791b62d",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "05feef427476e1b0cd50f340f6dcfc57d8dc25ba43bfaa8b4b0ac64ecc287581",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "d15c2e2a6ccfb39de6069ee380d93737b66fbc7a41bf7e52d16e2f90d66266d2",
+  "started_at": "2026-01-15T00:00:00Z"
+}

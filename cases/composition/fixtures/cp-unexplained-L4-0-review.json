@@ -1,0 +1,8 @@
+{
+  "case_id": "cp-unexplained",
+  "claim_sha256": "246f97c7888fec44a2f3e812bbf0c30179b6452dfa29adc1cab569efafb3da63",
+  "conclusion": "accept",
+  "evidence_sha256": "df05694b8b62a70fe4c97166d020cdfb42340eafaff1d74372d153d22931e473",
+  "reviewer": "reviewer-b",
+  "signature": "a62c76b264490cfe3da106c1c0a4652689142eaf14c2a0d78fb60bd301d5a5d2"
+}

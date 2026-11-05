@@ -1,0 +1,93 @@
+{
+  "claim": "四格记录都在，错误率和更新前一样",
+  "claimed_level": "L4",
+  "id": "lc-unexplained",
+  "net": "learning_claim",
+  "outside_model": true,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": true,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/lc-unexplained-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "e46c1caf24b43c102e518de1f2fb2f0945c1df2806cf950c099120d100e38315",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "dataset-record",
+          "path": "cases/learning_claim/fixtures/lc-unexplained-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "907ac447d91c54ad135be19fa3b4e0876c10ff53b45017c0393093ac4763265b",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "label-record",
+          "path": "cases/learning_claim/fixtures/lc-unexplained-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "34594489596fd1c642aceef692b96e3891c675bf459ce724ada6646690c189ce",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/lc-unexplained-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "16e8ea120ee38bc3b072a3ef0cd6f8f33ca6d611d3eabcb1aa60b29503a6ef59",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "lc-unexplained L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/lc-unexplained-L4-out-0.txt",
+          "output_sha256": "41c45203ec110b65566a9933b413e08632b580acfaa4af21bd225779312fd6af",
+          "review_path": "cases/learning_claim/fixtures/lc-unexplained-L4-0-review.json",
+          "review_sha256": "83249d0a7adf9bce6eab7d0d8e59e370691946a4e94de09350392879fa00138c",
+          "receipt_path": "cases/learning_claim/fixtures/lc-unexplained-L4-0.receipt.json",
+          "receipt_sha256": "9e7bca004290f09b342ef2aad36be4cedc88a6d2e7f18d2e9cfe69933313c827"
+        }
+      ]
+    }
+  },
+  "unexplained": {
+    "excluded_links": [
+      "窗口收到→进入训练集",
+      "进入训练集→得到正确标注",
+      "得到正确标注→推理时真正学会"
+    ],
+    "phenomenon": "A synthetic incident persists beyond the established local checks.",
+    "source_ref": "cases/shared/record.txt",
+    "source_sha256": "40271e88b3f4c0d99b4452050a48c9a2eb92ef8a07a2e6a81ceef8402ae740fc"
+  }
+}

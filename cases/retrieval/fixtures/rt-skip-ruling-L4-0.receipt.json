@@ -1,0 +1,19 @@
+{
+  "case_id": "rt-skip-ruling",
+  "claim_sha256": "4086387a2e5bbedd97cd99b5c9f81e8ddb3dd0ef45866992df9a7eccae6a824c",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "19a35cdfab2dd6e0c350afcb37bd641443f1ef38ba29cf8f4ae943a44c857c5f",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "0dadc996a56adb60b76d28d6a3853f48a1eed3869812853c15fc8187c7b49cdd",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "049b398a463f5032b82e735d91d1f57b6e9c77b7dc51998ab4e48a0d46398544",
+  "started_at": "2026-01-15T00:00:00Z"
+}

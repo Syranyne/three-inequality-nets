@@ -1,0 +1,8 @@
+{
+  "case_id": "au-break-fact",
+  "claim_sha256": "b8bac911ad250b37ac4dfa4876a055847ac5668e2f52e16b6a2d6ec8ed56a51c",
+  "conclusion": "accept",
+  "evidence_sha256": "601010bee4f7db82a8d8c44db127974ffdc8f4da48789dcd51ca71a4a791b62d",
+  "reviewer": "reviewer-b",
+  "signature": "c0200986aa8b664eda65fda36537feafaba8eab9362ca9f4e05fc93ae1e88dc3"
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "fournets.reviewer_roster.v1",
+  "about": "独立复核人名册。真实复核人只登记 key_sha256，密钥放在校验方的环境变量 FOURNETS_REVIEWER_KEY_<ID>。",
+  "reviewers": [
+    {
+      "id": "reviewer-b",
+      "fixture": true,
+      "fixture_key": "public-fixture-key-reviewer-b",
+      "key_sha256": "6cb7e2e4c6c14012713132c45454ebf5dedd357e656426bfe6bf82e149af58a4",
+      "note": "测试与样例专用；密钥公开，只在 FOURNETS_FIXTURE_REVIEWERS=1 时承认。",
+      "roles": [
+        "reviewer"
+      ]
+    },
+    {
+      "id": "bench-lab-a",
+      "fixture": true,
+      "fixture_key": "public-fixture-key-bench-lab-a",
+      "key_sha256": "e61a69a31015ffaa1ffafd27a2ec02632ea709fe659f22b4d98d7d9517027c04",
+      "note": "测试与样例专用；密钥公开，只在 FOURNETS_FIXTURE_REVIEWERS=1 时承认。",
+      "roles": [
+        "attester"
+      ]
+    },
+    {
+      "id": "bench-lab-b",
+      "fixture": true,
+      "fixture_key": "public-fixture-key-bench-lab-b",
+      "key_sha256": "59b0ac0d4ad8018948c6cd60e312234bdd7fd043316488ef35bdc72b805fdb68",
+      "note": "测试与样例专用；密钥公开，只在 FOURNETS_FIXTURE_REVIEWERS=1 时承认。",
+      "roles": [
+        "attester"
+      ]
+    },
+    {
+      "id": "runner-lab-a",
+      "fixture": true,
+      "fixture_key": "public-fixture-key-runner-lab-a",
+      "key_sha256": "3b990281d926006255aef16b8f5043da7b286d63aac3f9584650c4fd2c0b8436",
+      "roles": [
+        "runner"
+      ],
+      "note": "测试与样例专用；密钥公开，只在 FOURNETS_FIXTURE_REVIEWERS=1 时承认。"
+    }
+  ]
+}

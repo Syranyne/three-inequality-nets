@@ -1,0 +1,8 @@
+{
+  "case_id": "rt-skip-ruling",
+  "claim_sha256": "4086387a2e5bbedd97cd99b5c9f81e8ddb3dd0ef45866992df9a7eccae6a824c",
+  "conclusion": "accept",
+  "evidence_sha256": "19a35cdfab2dd6e0c350afcb37bd641443f1ef38ba29cf8f4ae943a44c857c5f",
+  "reviewer": "reviewer-b",
+  "signature": "379ff3a404fe0fb7f8a659ce0684b20ec90e6f5e1d380ba365cdc628cd8cbae8"
+}

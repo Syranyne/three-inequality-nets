@@ -1,0 +1,8 @@
+{
+  "case_id": "cp-skip-to-correct",
+  "claim_sha256": "cd069e0a32951045b5b1dcdc5fbca0c936a1feca2645c9b2ea7daf6ff58d43a6",
+  "conclusion": "accept",
+  "evidence_sha256": "51f0073b07667046e986018a503f2ebdb3cb019387fb06a75b26ac03648f0272",
+  "reviewer": "reviewer-b",
+  "signature": "70b4fa285c016ec8ea0198b7f9f86d815d73e289029610ea291dd3d388ae8df0"
+}

@@ -1,0 +1,340 @@
+{
+  "claimed_level": "L2",
+  "id": "cp-pass-joint-only",
+  "net": "composition",
+  "observations": {
+    "capabilities": [
+      "code",
+      "docs"
+    ],
+    "conflicts": [],
+    "incidents": [],
+    "joint": {
+      "episodes": [
+        {
+          "actions": [
+            {
+              "action_id": "change-1",
+              "actor": "self",
+              "at": "2026-01-15T10:05:00Z"
+            },
+            {
+              "action_id": "repair-1",
+              "actor": "self",
+              "at": "2026-01-15T10:09:00Z"
+            }
+          ],
+          "episode_id": "joint-1",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T10:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T10:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T10:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-2",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T11:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T11:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T11:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T11:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-3",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T12:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T12:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T12:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T12:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-4",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T13:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T13:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T13:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T13:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-5",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T14:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T14:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T14:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T14:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-6",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T15:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T15:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T15:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T15:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-7",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T16:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T16:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T16:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T16:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-8",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T17:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T17:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T17:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T17:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-9",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T18:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T18:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T18:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T18:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-10",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T19:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T19:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T19:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T19:01:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    "policy": null,
+    "solo": {
+      "code": {
+        "passes": 10,
+        "run_ids": [
+          "solo-code-0",
+          "solo-code-1",
+          "solo-code-2",
+          "solo-code-3",
+          "solo-code-4",
+          "solo-code-5",
+          "solo-code-6",
+          "solo-code-7",
+          "solo-code-8",
+          "solo-code-9"
+        ],
+        "runs": 10
+      },
+      "docs": {
+        "passes": 10,
+        "run_ids": [
+          "solo-docs-0",
+          "solo-docs-1",
+          "solo-docs-2",
+          "solo-docs-3",
+          "solo-docs-4",
+          "solo-docs-5",
+          "solo-docs-6",
+          "solo-docs-7",
+          "solo-docs-8",
+          "solo-docs-9"
+        ],
+        "runs": 10
+      }
+    },
+    "thresholds": {
+      "max_joint_drop": 0.1,
+      "min_conflicts": 2,
+      "min_pass_rate": 0.8,
+      "min_runs": 5
+    },
+    "subject_id": "self"
+  },
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/solo.txt",
+          "produced_by": "runner-a",
+          "sha256": "c0ca3d2a348ae6127923422ef4e0adabe66de1f7e3838743cbf14ebbe4246adb",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-pass-joint-only-L1-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-pass-joint-only-L1-0.receipt.json",
+          "receipt_sha256": "56494b7e94e62fedfc3153bd876e5b33c75386f5cc1fa8ff241a4a3ca7dcea13"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "solo-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-pass-joint-only-solo.json",
+          "produced_by": "runner-a",
+          "sha256": "5f453b1a43134186142e32f0bcdccccbf6bc7212c9ca7cae65b38a05cd8ed48b",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-pass-joint-only-L1-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-pass-joint-only-L1-1.receipt.json",
+          "receipt_sha256": "f8995c8199803149937de1b7242faac98056c5df21f5be4838669963d634b64e"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/joint.txt",
+          "produced_by": "runner-a",
+          "sha256": "680158164a7e23e23860b6e2665f680d41c3317dd4106dbdcb95f9be01019a69",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-pass-joint-only-L2-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-pass-joint-only-L2-0.receipt.json",
+          "receipt_sha256": "8603fcacb3fd4954cb3e9e79a8ec1faa11b60639bd39aea9b69d926585c008a8"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "joint-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-pass-joint-only-joint.json",
+          "produced_by": "runner-a",
+          "sha256": "2b1912d74ac0b496105219163501d022801cca0fe7f5d11a8a663014eb96ce74",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-pass-joint-only-L2-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-pass-joint-only-L2-1.receipt.json",
+          "receipt_sha256": "c41b68b48ffc2e9fb00423e04d89014bf94880df4e19ffce169822e5031c83e2"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": []
+    },
+    "L4": {
+      "evidence": []
+    }
+  }
+}

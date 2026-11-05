@@ -1,0 +1,19 @@
+{
+  "case_id": "lc-forged-hint",
+  "claim_sha256": "3d00de3453bc2f7ca4f7d91ed6b96dfb1e07fb3b2acbf245ef38f32ff14223e5",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "3a0c2b3861bf31658a86924b02fbf753bfe698d3b3547bbf31abea4a80fc52f2",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "3c0c4990707b0366edaaa0dc4a4d34cdaf4577c6bab6e032c20361fb642458aa",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "e78f656137b155bb3ec8a1b3048885439857c40ab0204a22b8d03bc3af29f236",
+  "started_at": "2026-01-15T00:00:00Z"
+}

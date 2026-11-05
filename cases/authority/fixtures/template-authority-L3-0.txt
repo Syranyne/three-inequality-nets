@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "fact-check-record",
+  "stage": "L3",
+  "note": "template-authority:L3:0"
+}

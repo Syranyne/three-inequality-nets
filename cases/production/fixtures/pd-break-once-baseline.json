@@ -1,0 +1,8 @@
+{
+  "attested_by": "bench-lab-a",
+  "case_id": "pd-break-once",
+  "claim_sha256": "0b4a0843b0dc3b24e5926375d02bd6b7581c4fd66aadc2932bed244339b18fdb",
+  "origin": "synthetic fixture: baseline-a",
+  "signature": "bd3506cc91e43a2d3875e4935a3b3d2a0a3d58c1f069d7b0647052d143176965",
+  "value": 0.5
+}

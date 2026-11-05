@@ -1,0 +1,115 @@
+{
+  "claim": "两项补货产品四环齐备，接入共享需求池后彼此放大订单",
+  "claimed_level": "L4",
+  "id": "pd-unexplained",
+  "net": "production",
+  "outside_model": true,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "real_user_signal": true,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-unexplained-users.json",
+    "user_signal_sha256": "9f124daca85c92b76fdc684153624e333e03f0823c4c50d9e5c1b4e405435c1d",
+    "user_sample_size": 30,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/pd-unexplained-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/pd-unexplained-baseline.json",
+        "source_sha256": "d416b46d860ae2833c6cec0119fde24f154a7c5be2f4bc30928b1977501b3bd9"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/pd-unexplained-competitor.json",
+          "source_sha256": "2a231e140d0aeb29389fa0ab9b856c9b69711bb9c74b86fb8b105405334cb42a"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/pd-unexplained-sample.json",
+          "produced_by": "fixture-generator",
+          "reviewed_by": "",
+          "sha256": "28a6978f2e4edfeb2c102571c633455039e01e265a0a8b2968e81297c085d1cb",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "release-record",
+          "path": "cases/production/fixtures/pd-unexplained-release.json",
+          "produced_by": "fixture-generator",
+          "reviewed_by": "",
+          "sha256": "109433eb1eef9304a8b3a6b8945cee8e4937081066007ce2761fdefcf7ac69ec",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "user-evaluation",
+          "path": "cases/production/fixtures/pd-unexplained-users.json",
+          "produced_by": "fixture-generator",
+          "reviewed_by": "",
+          "sha256": "9f124daca85c92b76fdc684153624e333e03f0823c4c50d9e5c1b4e405435c1d",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/pd-unexplained-benchmark.json",
+          "produced_by": "fixture-generator",
+          "reviewed_by": "reviewer-b",
+          "sha256": "522f8c2eb00e7c5c7c399528cf67e1ac35b85008dc4cd236c1459ee19df186fc",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "pd-unexplained L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/pd-unexplained-L4-out-0.txt",
+          "output_sha256": "1807de7b35a9ba4b4a5ec2c0b0532a26934b06fa23d9c2afab6216ea6f7d2fe2",
+          "review_path": "cases/production/fixtures/pd-unexplained-L4-0-review.json",
+          "review_sha256": "3196880c29912bd528f5ee3b479bf4c2b1f02ca1c7f8ee1cb161d6e61c81bcc6",
+          "receipt_path": "cases/production/fixtures/pd-unexplained-L4-0.receipt.json",
+          "receipt_sha256": "77ae7837b386ddc54a38af8eba587ebc060a34fa9316c28da7b57f281b6a90f8"
+        }
+      ]
+    }
+  },
+  "unexplained": {
+    "excluded_links": [
+      "生成能力→生产能力",
+      "生产能力→产品价值",
+      "产品价值→足以动摇行业的竞争力"
+    ],
+    "phenomenon": "两项产品的样品、重复交付、用户评价与行业对照均有记录。共享需求池把对方订单反馈为新增需求，订单持续放大；跨产品反馈关系超出单产品四环的表达范围。",
+    "source_ref": "cases/production/fixtures/pd-unexplained-incident.json",
+    "source_sha256": "82417d448c6d9368828212f7e8ebfafc7379976795a015a45e1233312cf5d2f0"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "claim": "留出测试的提示里直接写了答案",
+  "claimed_level": "L4",
+  "id": "lc-forged-hint",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": true,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": true,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-hint-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "a7b900211e113a92dc05390d6a452f300ccefd626b529bcf3e7deba0cab49fdb",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "dataset-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-hint-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "2e82e50fd3de02c4961d5f147a119206943afe19352e676ff35924468c95c7bd",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "label-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-hint-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "a3b6421793476390987ca7428ba78112ee1b32f0857b07e49de0786962384362",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-hint-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "3a0c2b3861bf31658a86924b02fbf753bfe698d3b3547bbf31abea4a80fc52f2",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "lc-forged-hint L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/lc-forged-hint-L4-out-0.txt",
+          "output_sha256": "3c0c4990707b0366edaaa0dc4a4d34cdaf4577c6bab6e032c20361fb642458aa",
+          "review_path": "cases/learning_claim/fixtures/lc-forged-hint-L4-0-review.json",
+          "review_sha256": "32629b62a839cd98df9932d6fa974c4460ed43da706206f771cef6c16f6cda13",
+          "receipt_path": "cases/learning_claim/fixtures/lc-forged-hint-L4-0.receipt.json",
+          "receipt_sha256": "74ca10925ecd401245c646deedd75df28c6dbb42e6d7e5d6a4eec7ba76390dfd"
+        }
+      ]
+    }
+  }
+}

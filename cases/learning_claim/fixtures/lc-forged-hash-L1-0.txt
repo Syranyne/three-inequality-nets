@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "window-record",
+  "stage": "L1",
+  "note": "lc-forged-hash:L1-0:cases/shared/record.txt"
+}

@@ -1,0 +1,105 @@
+{
+  "claim": "另一条产品线也走完四个环节",
+  "claimed_level": "L4",
+  "id": "pd-pass-second",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "real_user_signal": true,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-pass-second-users.json",
+    "user_signal_sha256": "957b34aefd6a0549cd98d50c93ede774805789ee4d5a7eb2a29beec17b52345f",
+    "user_sample_size": 30,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/pd-pass-second-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/pd-pass-second-baseline.json",
+        "source_sha256": "cefbd5360368ad91f4f4c6f3331e6c032e58f23ede03e6a1b7afc5d1d342c9b6"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/pd-pass-second-competitor.json",
+          "source_sha256": "2ad7ea88a51be196130350b3b31dde66a1e69604200ef8b13caa14463ca4428a"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/pd-pass-second-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "cd17d30cbc7ed37ae9ca309c744536a6ff8f9fd940e2ebde957c61e7265fc250",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "release-record",
+          "path": "cases/production/fixtures/pd-pass-second-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "365049b8aed20f27398e539cab569569b72c17965f141f7677ee64b684483d4a",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "user-evaluation",
+          "path": "cases/production/fixtures/pd-pass-second-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "51647802a1a3ffd9b69cd78e1303ae891e118228ff5a6713037f0d9e6fa8a27e",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/pd-pass-second-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "9c2ba446984e408f55533ba6ae728810224088c9877527aae1042f617cd834c2",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "pd-pass-second L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/pd-pass-second-L4-out-0.txt",
+          "output_sha256": "870492908efc2ed4d6680c7f358ebed6d8ddbab71820ade0f2c69753eeb09433",
+          "review_path": "cases/production/fixtures/pd-pass-second-L4-0-review.json",
+          "review_sha256": "2b25482a80f21425acbd4dac225c34a94f50d4cffa526ad6ea1116f0baf75cbb",
+          "receipt_path": "cases/production/fixtures/pd-pass-second-L4-0.receipt.json",
+          "receipt_sha256": "f0c40076c6cc32b248ca1c21b3e4386562b6b8357edc3661529615e02a04d487"
+        }
+      ]
+    }
+  }
+}

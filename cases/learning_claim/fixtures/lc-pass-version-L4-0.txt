@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "held-out-record",
+  "stage": "L4",
+  "note": "lc-pass-version:L4-0:cases/shared/record.txt"
+}

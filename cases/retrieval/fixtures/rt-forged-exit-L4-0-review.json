@@ -1,0 +1,8 @@
+{
+  "case_id": "rt-forged-exit",
+  "claim_sha256": "73f70ef58de484f8baf6906f923fc67658da5ec57407c626f9d103658e597683",
+  "conclusion": "accept",
+  "evidence_sha256": "d20b68c5e5da17f86e9876f07e6a4f939f176923d092ba5ec933cdb3445d1f84",
+  "reviewer": "reviewer-b",
+  "signature": "7771ee55b2aa6231f4840b7cae20d7e01bd21a42e1e57637f4dabc62c858e651"
+}

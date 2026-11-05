@@ -1,0 +1,74 @@
+{
+  "claim": "样本在库里，标注环节是空的，却写成学会了",
+  "claimed_level": "L4",
+  "id": "lc-skip-label",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": true,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/lc-skip-label-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "2ec1d4b80b51133cbd7667e393998e8b001d8bd3b602774e6f1c42e741ef14da",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "dataset-record",
+          "path": "cases/learning_claim/fixtures/lc-skip-label-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "a163c1a9e31bb9212e0cd6bf0178608fa1f3f2dd10deb0f7d365d2c30fad26cb",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": []
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/lc-skip-label-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "603fea41852092e6298eec2d8e3f42708cf09fb4f3840655619961c022bd4231",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "lc-skip-label L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/lc-skip-label-L4-out-0.txt",
+          "output_sha256": "050e3420b2e59cbd7e49c501b516f907fd0b32f8fe70920c87a0dcb0406ce832",
+          "review_path": "cases/learning_claim/fixtures/lc-skip-label-L4-0-review.json",
+          "review_sha256": "51cd0ea789c1cbdb93bcd1071875f9d1ef69498e065ab5aa90658ac226b02d7d",
+          "receipt_path": "cases/learning_claim/fixtures/lc-skip-label-L4-0.receipt.json",
+          "receipt_sha256": "de6d20e9316db283e22fea66e45d55c6943c1a790bf0d61941ba393442463629"
+        }
+      ]
+    }
+  }
+}

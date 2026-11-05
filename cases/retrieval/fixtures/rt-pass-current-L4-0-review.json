@@ -1,0 +1,8 @@
+{
+  "case_id": "rt-pass-current",
+  "claim_sha256": "38c8c53828e788c81b59103dd68b0ec60463568a5ee1ed120ec8d8289bbf784e",
+  "conclusion": "accept",
+  "evidence_sha256": "45236180cc8aa9c5553a640208d2fa8e6a0eff712bde9443dff78f71d844ce7c",
+  "reviewer": "reviewer-b",
+  "signature": "ed6ac406bab8805a75557a1967ec1a5341517d55a9b09b1e74ebc092c272da9c"
+}

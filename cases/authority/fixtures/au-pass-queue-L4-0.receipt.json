@@ -1,0 +1,19 @@
+{
+  "case_id": "au-pass-queue",
+  "claim_sha256": "0da93e7e66cc32953ca1aee74a49896eb3fe6533fe368e2b4b4eb3fa68648fd8",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "51bf973fd5ad88a5e44582990948e8fa4caf0166a00e3456d95b884e5133202b",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "db6854ebf179613a4672eec571310b56071016096421172cfd2471636d9c71e9",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "2254bf1345fc59d224b1e86fe0264836b3e946a3c6de75c78d34f8fa20fc24b0",
+  "started_at": "2026-01-15T00:00:00Z"
+}

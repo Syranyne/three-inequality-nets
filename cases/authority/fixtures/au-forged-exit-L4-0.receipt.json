@@ -1,0 +1,19 @@
+{
+  "case_id": "au-forged-exit",
+  "claim_sha256": "141fbca7ebfcda94bfda2898a8873505575549859530f2af0683e9e275add7fc",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "90d8b8a80f6c10425fc9fd5e2acb67223a4c539f30abde5d711f9b804317a73e",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "c1c7aba54fc78a955ee4a73019ce758a53db3da69e1fd02dbfaa4870d86abb5d",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "6566d5a7e4e43b022651e793ce31f2c232a9b92b0bce9ced0d3cb3aa9f97e260",
+  "started_at": "2026-01-15T00:00:00Z"
+}

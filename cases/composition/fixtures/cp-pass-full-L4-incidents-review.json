@@ -1,0 +1,8 @@
+{
+  "case_id": "cp-pass-full",
+  "claim_sha256": "aebb790fe610304ab9836565f8d73bdf68235561a1712e250480f648b9c436bc",
+  "conclusion": "accept",
+  "evidence_sha256": "af2a9bbc7704d484c7a188dfac73c6db7e36c1c9b5ff1e3d982919e41a677102",
+  "reviewer": "reviewer-b",
+  "signature": "743aeb00d35af316fb24c442096da94a6b92561ec71cd9617280295004c3b57a"
+}

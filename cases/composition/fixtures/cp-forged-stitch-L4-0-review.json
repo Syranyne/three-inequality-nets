@@ -1,0 +1,8 @@
+{
+  "case_id": "cp-forged-stitch",
+  "claim_sha256": "738da3fa23234462e181b50cc6de53d0746bc37135ce92d63e920a1498d19a58",
+  "conclusion": "accept",
+  "evidence_sha256": "df05694b8b62a70fe4c97166d020cdfb42340eafaff1d74372d153d22931e473",
+  "reviewer": "reviewer-b",
+  "signature": "94d4187804bb065b24b5863880f73dda56ecf7a37aacc7a038a709ddf3a94c57"
+}

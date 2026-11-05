@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "label-record",
+  "stage": "L3",
+  "note": "lc-break-label:L3-0:cases/shared/record.txt"
+}

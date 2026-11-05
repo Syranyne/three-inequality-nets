@@ -1,0 +1,8 @@
+{
+  "case_id": "cp-skip-priority",
+  "claim_sha256": "10f6e2f91279fda6853b7b137c10fe7b41c3348983eae790f362ad3e6ba4b1ee",
+  "conclusion": "accept",
+  "evidence_sha256": "df05694b8b62a70fe4c97166d020cdfb42340eafaff1d74372d153d22931e473",
+  "reviewer": "reviewer-b",
+  "signature": "e3c09a53b73b82919b646614192cb9112121e69ed16fc43f03d91a1360595389"
+}

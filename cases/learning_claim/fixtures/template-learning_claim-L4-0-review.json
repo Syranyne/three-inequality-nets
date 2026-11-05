@@ -1,0 +1,8 @@
+{
+  "case_id": "template-learning_claim",
+  "claim_sha256": "c813407337d97b9aac8aaf9ed3fe96c64d6e1e474a492ddd18215b3f58b8e19d",
+  "conclusion": "accept",
+  "evidence_sha256": "4fab7ecb145f6906aa0748cb639591e02f34b2fa808d1a5a47c25b0d87d9d618",
+  "reviewer": "reviewer-b",
+  "signature": "8750e48d2b9646d590955d2a5748c87fb069439e8262fe1f22c091f5da3a3b53"
+}

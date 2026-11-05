@@ -1,0 +1,8 @@
+{
+  "broken_link": "能同时做→冲突时会正确调权",
+  "category": "forged",
+  "required_reasons": [
+    "L3:policy_after_trial"
+  ],
+  "verdict": "FAIL"
+}

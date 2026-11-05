@@ -1,0 +1,10 @@
+{
+  "broken_link": "能同时做→冲突时会正确调权",
+  "category": "skip_step",
+  "required_reasons": [
+    "later_evidence_does_not_backfill",
+    "skip_gap",
+    "claimed_above_proven"
+  ],
+  "verdict": "FAIL"
+}

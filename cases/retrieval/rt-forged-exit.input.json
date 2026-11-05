@@ -1,0 +1,82 @@
+{
+  "claim": "施工记录的退出码是 0，但没有输出",
+  "claimed_level": "L4",
+  "id": "rt-forged-exit",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-forged-exit-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "b3f012fdf555d393860d768c202d19292ee71dfc97925395c721b2db1ad901c7",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "command": [],
+          "exit_code": 0,
+          "kind": "alignment-record",
+          "output_summary": "",
+          "path": "cases/retrieval/fixtures/rt-forged-exit-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "b1463b8b1f8fe75c9b53da2aaf25d6173f405173c6c3d1a44932bfda50681c6b",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "authority-record",
+          "path": "cases/retrieval/fixtures/rt-forged-exit-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "36c9390db6b9dec339bca2f639117cb687ac5baf24405aae6b28a9e11cd7fbb6",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-forged-exit-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "d20b68c5e5da17f86e9876f07e6a4f939f176923d092ba5ec933cdb3445d1f84",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-forged-exit L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-forged-exit-L4-out-0.txt",
+          "output_sha256": "384b6db7c1f425d3d4c8dc38e621a334a55a2682df06a0dea948c3ed1cb9debd",
+          "review_path": "cases/retrieval/fixtures/rt-forged-exit-L4-0-review.json",
+          "review_sha256": "8ebf524d193be47f9863349cb4fa653376040973e6c8f8466fce2aa2bd16bab6",
+          "receipt_path": "cases/retrieval/fixtures/rt-forged-exit-L4-0.receipt.json",
+          "receipt_sha256": "5b99f5c5b317687d557779cc3b66510794e397c83cb6a221ea415464d36eef07"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "claim": "训练记录的退出码是 0，但没有输出",
+  "claimed_level": "L4",
+  "id": "lc-forged-exit",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": true,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-exit-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "f2a7e69422337ce0584cc5fc7a342b9374e4ebad9fab70c6e30df522daa668ad",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "command": [],
+          "exit_code": 0,
+          "kind": "dataset-record",
+          "output_summary": "",
+          "path": "cases/learning_claim/fixtures/lc-forged-exit-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "17a3e48c117636f957fad36a05351d277e7ac194ad41539af804eed7a5daf4d1",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "label-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-exit-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "2395d97b3db4c21307d1a3d4b617822df0005462a68d7aed0e22f114ba605afa",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/lc-forged-exit-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "8c13d592ffa7d5c84d65d30365ebd49faee9d3ef824095ac904cc6dbf30de93b",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "lc-forged-exit L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/lc-forged-exit-L4-out-0.txt",
+          "output_sha256": "6019c1da0dc1b2b32d411199c32654a5538b94c27cb05098b60b2edcf3634621",
+          "review_path": "cases/learning_claim/fixtures/lc-forged-exit-L4-0-review.json",
+          "review_sha256": "03f3d1aef57f220255887619b12c329d7e09e67ff736ab836a5d31f5fa04c2d5",
+          "receipt_path": "cases/learning_claim/fixtures/lc-forged-exit-L4-0.receipt.json",
+          "receipt_sha256": "1224be690598bab7a5b1215f72fc7b290cae197eeac5e167a74c4f8399d1a578"
+        }
+      ]
+    }
+  }
+}

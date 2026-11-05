@@ -1,0 +1,19 @@
+{
+  "case_id": "au-pass-handoff",
+  "claim_sha256": "7ad92c42efd3bfd0ac6893d65ee168a7445281cf8e3dd633631c38f699658e0b",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "83aac3bd706c4006f3ce2aef87f489c9b4f9dd2170c0b900a0b1ee8f310644ef",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "54497c98f5beccb3a7240c06e9f5ba0317b6045d347b1abb20621f4205cef184",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "fd711f22071cc06e1d9e9f0255283eb7e8ad6e4905b864a73ea269415dc1e77a",
+  "started_at": "2026-01-15T00:00:00Z"
+}

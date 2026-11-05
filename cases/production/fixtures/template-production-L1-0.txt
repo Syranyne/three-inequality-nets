@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "sample-record",
+  "stage": "L1",
+  "note": "template-production:L1:0"
+}

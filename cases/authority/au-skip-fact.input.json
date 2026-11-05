@@ -1,0 +1,75 @@
+{
+  "claim": "作者记录在，事实环节是空的，写入记录却在",
+  "claimed_level": "L4",
+  "id": "au-skip-fact",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": true,
+    "injected_authorization": false,
+    "sender": "agent-a",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-skip-fact-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "9c46896705c60575a8422e308387ffb2fd2adf61755a751d9d641f38ab488503",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/au-skip-fact-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4e3744118cbc7decc8c9c71bf65063826b3a5c6a52f91d06943782dcb63c8989",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": []
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-skip-fact-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "952d763f51a332eb524ec3b39e1a17115bcf869b8b50a003d870e3c5e86af8a1",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-skip-fact L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-skip-fact-L4-out-0.txt",
+          "output_sha256": "1eafa26c109765f1b946526a12d7361bd3e7d90a2df549ae36d5184b84a38170",
+          "review_path": "cases/authority/fixtures/au-skip-fact-L4-0-review.json",
+          "review_sha256": "e9dd67500c7a22567c0b19071ed4ab3314a8c9eade999340362b41d83fdb64a0",
+          "receipt_path": "cases/authority/fixtures/au-skip-fact-L4-0.receipt.json",
+          "receipt_sha256": "de74bbb6318c99b516d181fed3b31a0c07b5189334547ca9e928a63b12dc5f7b"
+        }
+      ]
+    }
+  }
+}

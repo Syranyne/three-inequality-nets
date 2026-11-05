@@ -1,0 +1,34 @@
+{
+  "code": {
+    "passes": 10,
+    "run_ids": [
+      "solo-code-0",
+      "solo-code-1",
+      "solo-code-2",
+      "solo-code-3",
+      "solo-code-4",
+      "solo-code-5",
+      "solo-code-6",
+      "solo-code-7",
+      "solo-code-8",
+      "solo-code-9"
+    ],
+    "runs": 10
+  },
+  "docs": {
+    "passes": 9,
+    "run_ids": [
+      "solo-docs-0",
+      "solo-docs-1",
+      "solo-docs-2",
+      "solo-docs-3",
+      "solo-docs-4",
+      "solo-docs-5",
+      "solo-docs-6",
+      "solo-docs-7",
+      "solo-docs-8",
+      "solo-docs-9"
+    ],
+    "runs": 10
+  }
+}

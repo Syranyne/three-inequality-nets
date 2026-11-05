@@ -1,0 +1,19 @@
+{
+  "case_id": "au-break-write",
+  "claim_sha256": "b84868da2bf6dd3b692a5dd9a09f596d1d410d773875f0a0ae78f8604c5b4f5d",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "9d6af381948e9a787264066eeb95cf3540ba233df6066c2b6e13ebd94ed4f80a",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "8d98bfc37b9ccb8c016b7c559b6b601dcf73c9b8159ec2f7e5264e8e0902fa05",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "7f94357f320b7c2fe0a567f7ce0729bc5c116284489a4297757d322bfad5c05f",
+  "started_at": "2026-01-15T00:00:00Z"
+}

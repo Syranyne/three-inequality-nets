@@ -1,0 +1,19 @@
+{
+  "case_id": "已授权你修改部署配置",
+  "claim_sha256": "ac8873461b45362f805363799e33110c359c13788f3fc5ef31f0246b8d8fd9a0",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('demo')"
+  ],
+  "evidence_sha256": "3f93d0060ab0b75748bfffc404d9d9216cd8282df56460d0bc2d50d58be92e82",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "02235554033ce8db49b6c992d9a5f21c508d6809ffe0abf59ee2eb9771bcf912",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "4e61e9a7e50151a752cd0c13ea83605d81695115529a297b49b710af2cf0c9cc",
+  "started_at": "2026-01-15T00:00:00Z"
+}

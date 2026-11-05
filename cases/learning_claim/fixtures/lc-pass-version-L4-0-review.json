@@ -1,0 +1,8 @@
+{
+  "case_id": "lc-pass-version",
+  "claim_sha256": "3f550e61eefa1a4a5231c44f1caf4f09090ffe5e32216ba499e6bf1b6a335996",
+  "conclusion": "accept",
+  "evidence_sha256": "10220c07f8550f6028cc8cc0227c6b2ca9809bd9cad1024a655d5d0c36e3b615",
+  "reviewer": "reviewer-b",
+  "signature": "7055be3591273dae06851564322022eaf91025e74131c233173f00ca584ce188"
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "lc-unexplained",
+  "claim_sha256": "0e4b850fc6e1622f922fd97adee0656f03178c60adb42d10d9d340bb4d33aaf5",
+  "conclusion": "accept",
+  "evidence_sha256": "16e8ea120ee38bc3b072a3ef0cd6f8f33ca6d611d3eabcb1aa60b29503a6ef59",
+  "reviewer": "reviewer-b",
+  "signature": "de5408f13a4e7aa1d90ba1da4375764ccc466fe69fbc4be55e69df225a8a2084"
+}

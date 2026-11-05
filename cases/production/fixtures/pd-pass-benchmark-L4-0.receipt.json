@@ -1,0 +1,19 @@
+{
+  "case_id": "pd-pass-benchmark",
+  "claim_sha256": "700ae6b3afcbf6b9a78643d52662bf5d844a26ad991797fd5cf0388efda4493e",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "3819022bed17bdd41edfae8d9513330e423817d3ee08f86854dd7357c0152b53",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "b16e44945fa63b4483f6bb84e9441e740ea14cdb2ded4f1e086baff7419528a9",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "ab9788788e0b95b041240d031ab81758e62a6d357158fcae892b7d0dc36da4c3",
+  "started_at": "2026-01-15T00:00:00Z"
+}

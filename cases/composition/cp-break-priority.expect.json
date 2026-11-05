@@ -1,0 +1,6 @@
+{
+  "broken_link": "能同时做→冲突时会正确调权",
+  "category": "break",
+  "required_reasons": [],
+  "verdict": "FAIL"
+}

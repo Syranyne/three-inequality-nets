@@ -1,0 +1,8 @@
+{
+  "case_id": "lc-break-dataset",
+  "claim_sha256": "3b2d91519f106f7695f9353d6ab50187c9d3f7d6533d7f4f4c0d6039fc2c17fb",
+  "conclusion": "accept",
+  "evidence_sha256": "a2dda3b82f0ba47a8bd2cdba50355086736be19be21615e5fda1f140a2b4d10e",
+  "reviewer": "reviewer-b",
+  "signature": "af6cb2eb4e0ab09c5e36ecc316b6477d77dbf7ad9010ab6d9a7d2190af107c66"
+}

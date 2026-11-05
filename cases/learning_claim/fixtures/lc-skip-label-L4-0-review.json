@@ -1,0 +1,8 @@
+{
+  "case_id": "lc-skip-label",
+  "claim_sha256": "d104f1794f408c75d6b479ff95e334d2f44054581652a865242d21e289b86120",
+  "conclusion": "accept",
+  "evidence_sha256": "603fea41852092e6298eec2d8e3f42708cf09fb4f3840655619961c022bd4231",
+  "reviewer": "reviewer-b",
+  "signature": "8e2fe566e4ef804eda886c3d3bfdd59f44866d4f3f042d96944f840342444e18"
+}

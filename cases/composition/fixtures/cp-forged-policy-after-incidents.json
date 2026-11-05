@@ -1,0 +1,25 @@
+[
+  {
+    "action_id": "change-1",
+    "baseline": 0,
+    "consequence_at": "2026-01-15T10:06:00Z",
+    "consequence_metric": "error-count",
+    "corrected_at": "2026-01-15T10:09:00Z",
+    "correction_action_id": "repair-1",
+    "detected_at": "2026-01-15T10:08:00Z",
+    "detected_by": "self",
+    "detection_log_ref": "cases/composition/fixtures/cp-forged-policy-after-detection-0.jsonl",
+    "detection_log_sha256": "740a73d89cf88996834961ab8416b9ba3508f42ff37493741400cb33bd62784a",
+    "episode_id": "joint-1",
+    "hints": [],
+    "incident_id": "incident-1",
+    "observed": 4,
+    "recheck": {
+      "at": "2026-01-15T20:00:00Z",
+      "joint_episode_id": "joint-10",
+      "metric_value": 0,
+      "tolerance": 0.5,
+      "verified_by": "reviewer-b"
+    }
+  }
+]

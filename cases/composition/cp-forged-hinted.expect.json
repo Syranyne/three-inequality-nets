@@ -1,0 +1,8 @@
+{
+  "broken_link": "冲突时会正确调权→造成后果后能自主纠偏",
+  "category": "forged",
+  "required_reasons": [
+    "L4:hinted_not_self"
+  ],
+  "verdict": "FAIL"
+}

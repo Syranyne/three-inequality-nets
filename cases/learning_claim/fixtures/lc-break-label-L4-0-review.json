@@ -1,0 +1,8 @@
+{
+  "case_id": "lc-break-label",
+  "claim_sha256": "875ab0774e612ee31f073ed09630d145fc3636798ae17c5d0b855435b6fc1d2f",
+  "conclusion": "accept",
+  "evidence_sha256": "cf74c18742aa5995f6967a3023d57f3a7cb00d99c522ca765ac668e524f35b29",
+  "reviewer": "reviewer-b",
+  "signature": "dfda1e9cee09853553efdf26421477ddbd7061418babedb4ace1887192ae699e"
+}

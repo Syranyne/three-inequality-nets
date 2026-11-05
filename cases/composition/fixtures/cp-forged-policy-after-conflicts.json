@@ -1,0 +1,28 @@
+[
+  {
+    "capabilities": [
+      "code",
+      "docs"
+    ],
+    "chosen": "code",
+    "conflict_id": "conflict-1",
+    "episode_id": "joint-1",
+    "expected_winner": "code",
+    "injected": true,
+    "loser_handling": "deferred",
+    "started_at": "2026-01-15T10:10:00Z"
+  },
+  {
+    "capabilities": [
+      "code",
+      "docs"
+    ],
+    "chosen": "code",
+    "conflict_id": "conflict-2",
+    "episode_id": "joint-2",
+    "expected_winner": "code",
+    "injected": false,
+    "loser_handling": "deferred",
+    "started_at": "2026-01-15T11:10:00Z"
+  }
+]

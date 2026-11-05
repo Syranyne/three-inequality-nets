@@ -1,0 +1,8 @@
+{
+  "attested_by": "bench-lab-a",
+  "case_id": "pd-pass-second",
+  "claim_sha256": "2f12c098205aa26f450a3fe881bd3131263da2aa18be554312a527154305e02a",
+  "origin": "synthetic fixture: baseline-a",
+  "signature": "d2517c0265c3521986b6af71ba467704f671484c654ba849ce0be9fd6614dd13",
+  "value": 0.5
+}

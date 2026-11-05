@@ -1,0 +1,105 @@
+{
+  "claim": "只跑通一次演示就说能稳定交付",
+  "claimed_level": "L4",
+  "id": "pd-break-once",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "real_user_signal": true,
+    "release_recorded": false,
+    "repeat_stable": false,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-break-once-users.json",
+    "user_signal_sha256": "854868857c17e5263069c02b015f4abd19a29cfb571006bb2d4de8e97e7e7adf",
+    "user_sample_size": 30,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/pd-break-once-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/pd-break-once-baseline.json",
+        "source_sha256": "c761b6f2b639d2bdc2d6f2e66803f7c9b1dcd768e0411d33c306493cf61209f0"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/pd-break-once-competitor.json",
+          "source_sha256": "8699252ebaab068c7ec1dba4cfd9e7896fbdf4b9a636f8efb23d563bdc30caf1"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/pd-break-once-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "cd6bbf33f241a1ecf63906a28e025882ef298d0832e2f7e919c0d20e56a3f4f8",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "release-record",
+          "path": "cases/production/fixtures/pd-break-once-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "18a829887fa9e9f25c19094f747f2ef9695aa3983ea30486af9d253de4714395",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "user-evaluation",
+          "path": "cases/production/fixtures/pd-break-once-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "de93443fc5e1418f8c3de6a04a28d558f8b24f1907bc38d9e2507fe81367d667",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/pd-break-once-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "59437a815d69cf05da84c6bb3ed1433fb2779afb9e7d8a26f31c0fcba292f65c",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "pd-break-once L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/pd-break-once-L4-out-0.txt",
+          "output_sha256": "87b6c55b03da962fd2e8320161f3c44bb22dc540852ee0fda33fa1dd01595965",
+          "review_path": "cases/production/fixtures/pd-break-once-L4-0-review.json",
+          "review_sha256": "0586c536d101fc6a77175b7b6dd1e18622beb5036b2e79792e50ed19c9990dc0",
+          "receipt_path": "cases/production/fixtures/pd-break-once-L4-0.receipt.json",
+          "receipt_sha256": "32e5ad52290671a2ce49416906b8cea6972dc3fb1fc6cfb80690df14c224231e"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "attested_by": "bench-lab-b",
+  "case_id": "pd-unexplained",
+  "claim_sha256": "1c20bfa7bea788841048ad1013895bf6a5210242da06af2b9ada50548d0d183c",
+  "origin": "synthetic fixture: competitor-a",
+  "signature": "f8ee4336720da2a3da30746eb16c41fe6ed0b236500476708d54f3b4f54d8c54",
+  "value": 0.7
+}

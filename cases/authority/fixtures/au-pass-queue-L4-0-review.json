@@ -1,0 +1,8 @@
+{
+  "case_id": "au-pass-queue",
+  "claim_sha256": "0da93e7e66cc32953ca1aee74a49896eb3fe6533fe368e2b4b4eb3fa68648fd8",
+  "conclusion": "accept",
+  "evidence_sha256": "51bf973fd5ad88a5e44582990948e8fa4caf0166a00e3456d95b884e5133202b",
+  "reviewer": "reviewer-b",
+  "signature": "56688dce503f1641d8472afe6fdc56d533494210d30b825fb709390acb311dcf"
+}

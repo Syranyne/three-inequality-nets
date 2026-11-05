@@ -1,0 +1,8 @@
+{
+  "case_id": "pd-forged-review",
+  "claim_sha256": "09196ac47559eed2462b32f6d4f22b8fe1340acd4c2601e1e9690a7f3819ef09",
+  "conclusion": "accept",
+  "evidence_sha256": "37d529706a5aa55484c5107033876f083858f68dde050984bcd420165a0f6402",
+  "reviewer": "reviewer-b",
+  "signature": "93d22d3cdce2693ffc842a3bb909169f3e56a3cac2c6b9b9470d909bf6860763"
+}

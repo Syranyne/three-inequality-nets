@@ -1,0 +1,19 @@
+{
+  "case_id": "au-skip-to-write",
+  "claim_sha256": "745ba17069d770d6714e19b34cf9bf380a868b6f1125b2c238ca6fd3eb5a02e5",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "0a9c0ac1f55e0f5c1d0efa6c3d8fbea6311d9dd3f19fecf7174c63face61978a",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "cfb0e3e2db0cc17a902c54e7f5545848160c640e5861c3b083b44575370eae2d",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "c3e7f5ad1e5abe1bfc63fe9048dd42f7091c09df25b09bc192ec6f534e97c059",
+  "started_at": "2026-01-15T00:00:00Z"
+}

@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "fact-check-record",
+  "stage": "L3",
+  "note": "au-forged-hash:L3-0:cases/shared/record.txt"
+}

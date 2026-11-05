@@ -1,0 +1,79 @@
+{
+  "claim": "标题命中了，对象读反了",
+  "claimed_level": "L4",
+  "id": "rt-break-object",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": false
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-break-object-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "3e9f682df4e69086d8f95d6deacfbb88ea5e5352648835643c25482067ee988b",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/rt-break-object-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "acb74b7ee9362acafe89bc58441c3a7a05f63496356fcfd7714f945453990a1c",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "authority-record",
+          "path": "cases/retrieval/fixtures/rt-break-object-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "16680a17617ef1dcaee29985a112142e542571018fd9aa5fd1ac7a4354c10c8d",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-break-object-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "66289726dbfea7631ec552ede8273b028eb276e8d83c10608d36b66cebb26d3d",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-break-object L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-break-object-L4-out-0.txt",
+          "output_sha256": "75f8b7ca9f20f9d8423d5c9d242b07ab1e5824727cb71c57bd0db763db58c349",
+          "review_path": "cases/retrieval/fixtures/rt-break-object-L4-0-review.json",
+          "review_sha256": "763accaff38402e99fa6b177e8df9c2ba44148a02fbce906b27ba660002e26e0",
+          "receipt_path": "cases/retrieval/fixtures/rt-break-object-L4-0.receipt.json",
+          "receipt_sha256": "369d928345114468d7e74a5ae2477cecfc498aa2223b4ff01cc0ec8bea6a5ce7"
+        }
+      ]
+    }
+  }
+}

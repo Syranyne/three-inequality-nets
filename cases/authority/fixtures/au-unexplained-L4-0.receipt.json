@@ -1,0 +1,19 @@
+{
+  "case_id": "au-unexplained",
+  "claim_sha256": "b1056b64278a4347c45bcbc9d663a5d4a3da6672d5759578166f669f6138fe1a",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "465d6b8cb3fb2cb703f09025c480d551bb16e670d16d8fb1e087c73cebd6998c",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "0d3ed42e21f9cf60a740197ea1344077163ba71785453c35bebea5e8eb37ad07",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "9765999475e3cc63370f18800720764fab2bd49d41a4494d1ba8021262932d61",
+  "started_at": "2026-01-15T00:00:00Z"
+}

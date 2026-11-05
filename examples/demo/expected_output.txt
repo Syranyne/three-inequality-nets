@@ -1,0 +1,9 @@
+之前（日志自称）	之后（校验结论）
+测试全部通过	FAIL	-	claimed
+已授权你修改部署配置	FAIL	事实主张→写入授权	L3
+已记住	FAIL	窗口收到→进入训练集	L1
+按检索结果改配置	FAIL	检索命中→语义理解	L1
+可上线量产	FAIL	生成能力→生产能力	L1
+批处理超时已核对且未写入	PASS	-	L3
+配置问题已自行发现并修复	FAIL	冲突时会正确调权→造成后果后能自主纠偏	L3
+自标反例但排除的环节不成立	FAIL	能同时做→冲突时会正确调权	L2	L3:priority_winner L4:review_missing L4:hash_mismatch later_evidence_does_not_backfill skip_gap claimed_above_proven L4:incident_observation_digest outside_model:explained_by_net

@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-skip-to-correct",
+  "claim_sha256": "cd069e0a32951045b5b1dcdc5fbca0c936a1feca2645c9b2ea7daf6ff58d43a6",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "51f0073b07667046e986018a503f2ebdb3cb019387fb06a75b26ac03648f0272",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "35240d507bbd31f93bb95a433472796b2a04890e9c4778a5e8b89f88ae34c6fb",
+  "started_at": "2026-01-15T00:00:00Z"
+}

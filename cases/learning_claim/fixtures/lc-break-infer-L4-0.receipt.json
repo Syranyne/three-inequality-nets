@@ -1,0 +1,19 @@
+{
+  "case_id": "lc-break-infer",
+  "claim_sha256": "7c31f3627716759f69ff73a4bbc3c61e97c67ab330c242814177e2cd0f9f8ffc",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "44dbae3c53e4550bc627601900c592734e44f633c027c4a91024e982a2afa546",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "3e258019722f273b76021c4551c24d439dc68951a82c83a8fe6f286237ba5a20",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "bf5f01f21e503d17c7b88a22e62161dbe2b253185da69481d2ecec8ad8f1d431",
+  "started_at": "2026-01-15T00:00:00Z"
+}

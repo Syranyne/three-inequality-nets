@@ -1,0 +1,8 @@
+{
+  "case_id": "cp-break-joint",
+  "claim_sha256": "df172866d51d1509c7fad3d1026082e4dee095f688d3b93185e706dfce311e1f",
+  "conclusion": "accept",
+  "evidence_sha256": "df05694b8b62a70fe4c97166d020cdfb42340eafaff1d74372d153d22931e473",
+  "reviewer": "reviewer-b",
+  "signature": "4f05dfd06b4ca9d144c8cd256caaba9ae5c0a2b22541fbc71bf92a850d01303d"
+}

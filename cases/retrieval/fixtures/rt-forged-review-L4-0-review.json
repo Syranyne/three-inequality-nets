@@ -1,0 +1,8 @@
+{
+  "case_id": "rt-forged-review",
+  "claim_sha256": "140b74a18e8e7a338a8fb5eaee8c368d8cc14b3e99c97ce135e8ebbae699d25f",
+  "conclusion": "accept",
+  "evidence_sha256": "a8fefb21abcc9d98d68018574d729750089af0712e0e8e53f7b2f6c8b8b2084d",
+  "reviewer": "reviewer-b",
+  "signature": "b3730e1aa351dc3cd2ec5279db39e85bc31a29059547a9d7a9b48dc600205999"
+}

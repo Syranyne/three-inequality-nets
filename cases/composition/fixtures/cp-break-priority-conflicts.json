@@ -1,0 +1,28 @@
+[
+  {
+    "capabilities": [
+      "safety",
+      "speed"
+    ],
+    "chosen": "speed",
+    "conflict_id": "conflict-1",
+    "episode_id": "joint-1",
+    "expected_winner": "safety",
+    "injected": true,
+    "loser_handling": "deferred",
+    "started_at": "2026-01-15T10:10:00Z"
+  },
+  {
+    "capabilities": [
+      "safety",
+      "speed"
+    ],
+    "chosen": "safety",
+    "conflict_id": "conflict-2",
+    "episode_id": "joint-2",
+    "expected_winner": "safety",
+    "injected": false,
+    "loser_handling": "deferred",
+    "started_at": "2026-01-15T11:10:00Z"
+  }
+]

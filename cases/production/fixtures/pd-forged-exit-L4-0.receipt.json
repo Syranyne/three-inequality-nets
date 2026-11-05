@@ -1,0 +1,19 @@
+{
+  "case_id": "pd-forged-exit",
+  "claim_sha256": "063b13a1910da815ca0c2f0f8a543c202b5d325e88da45164a15a7f22ac3ca0f",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "6c9d7c37d09db6c8c3d62e58e24b0946c2975d21e2f827f4b58c1b46c9c84a2e",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "3e8d1ab1982302727f5f5801a2ca39088c4f2d052eeeb211b6810cb24eb4bd3a",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "bad2737309d81ac907a21a4c021cb3bd756245bacacfa5c7f7dfd465005f79f2",
+  "started_at": "2026-01-15T00:00:00Z"
+}

@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "release-record",
+  "stage": "L2",
+  "note": "pd-break-users:L2-0:cases/shared/record.txt"
+}

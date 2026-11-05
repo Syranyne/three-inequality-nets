@@ -1,0 +1,84 @@
+{
+  "claim": "四个环节的证据都在",
+  "claimed_level": "L4",
+  "id": "template-authority",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": true,
+    "injected_authorization": false,
+    "sender": "agent-a",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/template-authority-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4e989c96b6ce7143ef766b2ec69fb3a2445064057ed9d09015319c2cc109e241",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/template-authority-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "2309d15363773aa5d44b3d6b43fef05c55ffedbf3f521eff635bc25b7c1e17b5",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "fact-check-record",
+          "path": "cases/authority/fixtures/template-authority-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "152db08bc309bd47dd888bbd657f49dbcc975d3b5cceddbdc9a2007057fa03ca",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/template-authority-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "5ac61c1cd6466ac7ad6c9538b06bda804cb55edc13a33adfa594800c274c3d07",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "ok",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/template-authority-L4-out-0.txt",
+          "output_sha256": "9f2a59a60e65fbcd5a3e1b7248adf92890ce3a32b19e43fb4751c2657196de13",
+          "review_path": "cases/authority/fixtures/template-authority-L4-0-review.json",
+          "review_sha256": "8ab3e326d47fa7676e42818957ff9726e97b5ea96b5a6f217aca6b66f42b0b20",
+          "receipt_path": "templates/fixtures/template-authority-L4-0.receipt.json",
+          "receipt_sha256": "58fd6e01aaed2dfcb88af489b82ff5f99e1ca93a28195466406f60ea9eba5eef"
+        }
+      ]
+    }
+  }
+}

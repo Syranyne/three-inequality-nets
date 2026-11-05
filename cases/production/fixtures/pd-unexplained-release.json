@@ -1,0 +1,44 @@
+{
+  "fixture_type": "synthetic-test-record",
+  "products": [
+    {
+      "passes": 10,
+      "product": "service-a",
+      "released_version": "1.0",
+      "run_ids": [
+        "service-a-trial-0",
+        "service-a-trial-1",
+        "service-a-trial-2",
+        "service-a-trial-3",
+        "service-a-trial-4",
+        "service-a-trial-5",
+        "service-a-trial-6",
+        "service-a-trial-7",
+        "service-a-trial-8",
+        "service-a-trial-9"
+      ],
+      "runs": 10
+    },
+    {
+      "passes": 10,
+      "product": "service-b",
+      "released_version": "1.0",
+      "run_ids": [
+        "service-b-trial-0",
+        "service-b-trial-1",
+        "service-b-trial-2",
+        "service-b-trial-3",
+        "service-b-trial-4",
+        "service-b-trial-5",
+        "service-b-trial-6",
+        "service-b-trial-7",
+        "service-b-trial-8",
+        "service-b-trial-9"
+      ],
+      "runs": 10
+    }
+  ],
+  "scope": "each product under fixed external demand",
+  "evidence_kind": "release-record",
+  "stage": "L2"
+}

@@ -1,0 +1,84 @@
+{
+  "claim": "有人付费，对照表是空的",
+  "claimed_level": "L4",
+  "id": "pd-break-market",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "benchmark_present": false,
+    "real_user_signal": true,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-break-market-users.json",
+    "user_signal_sha256": "a20a0beffd5ff544c4ca31f4b47504f3e24a0cdc93995afff95b2caa95bfff6a",
+    "user_sample_size": 30
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/pd-break-market-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "e418ba1e8af2d57a1325b23f66bf2a602fce999c9bc9da858897270d26c66139",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "release-record",
+          "path": "cases/production/fixtures/pd-break-market-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "0b0635f644fca5977ae60bebf11b6e271905ef0f71f565e7db907208c15d3260",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "user-evaluation",
+          "path": "cases/production/fixtures/pd-break-market-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "37bd90bebd53f54fc53c0c2c5281c44793008dd239cb9131ae0e71b3aa571d26",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/pd-break-market-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "3e2e16cdb127984d987ab9df151165d7ce82daa6977256b76156572e8470cd07",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "pd-break-market L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/pd-break-market-L4-out-0.txt",
+          "output_sha256": "ae7b5093e58305e1668f461265ffaf867e03e22d6ec90f3efa11415d0d787dd8",
+          "review_path": "cases/production/fixtures/pd-break-market-L4-0-review.json",
+          "review_sha256": "6a9072df6dcb8cba5e85c3844c3531e8c894d03edcc14bd6208ac1da73b4b26b",
+          "receipt_path": "cases/production/fixtures/pd-break-market-L4-0.receipt.json",
+          "receipt_sha256": "3039b8aa2b554fcc3dca568537568a2e5a3914244c5cd534264e1e8e5f4f09a3"
+        }
+      ]
+    }
+  }
+}

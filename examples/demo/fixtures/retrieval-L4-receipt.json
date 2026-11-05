@@ -1,0 +1,19 @@
+{
+  "case_id": "按检索结果改配置",
+  "claim_sha256": "1c05856b453850ab85709d873ccecc27d76531e3cf97d22d054d16aa508a9b14",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('demo')"
+  ],
+  "evidence_sha256": "f9f215eeb82e9eaa062c29f65bc1cd2ac9a22d113e870dd86e2b6a821625e3dc",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "06eb6ef8db4bca537a180d156a94d10896ea48c4b735011a16730a5076b24de6",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "d64c014be3bb7361b9694d0c69048d6e300320839da4562c54a56f025f148638",
+  "started_at": "2026-01-15T00:00:00Z"
+}

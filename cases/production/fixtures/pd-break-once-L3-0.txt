@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "user-evaluation",
+  "stage": "L3",
+  "note": "pd-break-once:L3-0:cases/shared/record.txt"
+}

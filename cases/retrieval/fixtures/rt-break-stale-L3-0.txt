@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "authority-record",
+  "stage": "L3",
+  "note": "rt-break-stale:L3-0:cases/shared/record.txt"
+}

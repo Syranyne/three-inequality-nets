@@ -1,0 +1,103 @@
+{
+  "claim": "发布记录的摘要对不上",
+  "claimed_level": "L4",
+  "id": "pd-forged-hash",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "real_user_signal": true,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/pd-forged-hash-users.json",
+    "user_signal_sha256": "101ddea8221ee392142b6521099eaa8239707bfa3b11553b92071e71e05d6ec8",
+    "user_sample_size": 30,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/pd-forged-hash-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/pd-forged-hash-baseline.json",
+        "source_sha256": "6a8a5266cd9a392442afa19eb802f1a93ee938772ae2be3bb45c8e59d485948a"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/pd-forged-hash-competitor.json",
+          "source_sha256": "c444e63ca3dcb159a7f7f9b3c31b178e74c3c2ea6d6687c12ab998aa28bf24fa"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/pd-forged-hash-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "ab07a2e5bfd0cd3a607a1369d5d30ad7cd4b59679a0c0434fb34e1d01477b8f0",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "release-record",
+          "path": "cases/production/fixtures/pd-forged-hash-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "ecbf4a011edee46f6b8f6a80a92e1f9eb52907b842db82b272cc1a1bb7624d71",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "user-evaluation",
+          "path": "cases/production/fixtures/pd-forged-hash-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "08321e268578bf5b7fe396e611b99412fd03042cb7eae0520e9840027f625a53",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/pd-forged-hash-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "pd-forged-hash L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/pd-forged-hash-L4-out-0.txt",
+          "output_sha256": "a865c3fad28bdecf4bdfad8de8fbb4ff848e7f8af96d5f1117b8d126d83eb893",
+          "review_path": "cases/production/fixtures/pd-forged-hash-L4-0-review.json",
+          "review_sha256": "338803d398294577aff65fd881f081e73432bb194efe724b446c9f0cc0c206a0"
+        }
+      ]
+    }
+  }
+}

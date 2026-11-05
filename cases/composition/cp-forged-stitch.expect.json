@@ -1,0 +1,8 @@
+{
+  "broken_link": "会做→能同时做",
+  "category": "forged",
+  "required_reasons": [
+    "L2:stitched_joint"
+  ],
+  "verdict": "FAIL"
+}

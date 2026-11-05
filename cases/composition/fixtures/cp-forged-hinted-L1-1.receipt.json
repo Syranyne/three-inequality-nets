@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-forged-hinted",
+  "claim_sha256": "7727ce75bad89c4824b6f3bc8ef224ac3b6c2fba980934f6bf884ac7a1e8b951",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "5f453b1a43134186142e32f0bcdccccbf6bc7212c9ca7cae65b38a05cd8ed48b",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "6a10d26211a31af0b98bc72e68def49fda87a35140ad941d7ae1c12620f23ea8",
+  "started_at": "2026-01-15T00:00:00Z"
+}

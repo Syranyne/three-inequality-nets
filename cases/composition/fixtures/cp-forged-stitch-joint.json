@@ -1,0 +1,195 @@
+{
+  "episodes": [
+    {
+      "actions": [
+        {
+          "action_id": "change-1",
+          "actor": "self",
+          "at": "2026-01-15T10:05:00Z"
+        },
+        {
+          "action_id": "repair-1",
+          "actor": "self",
+          "at": "2026-01-15T10:09:00Z"
+        }
+      ],
+      "episode_id": "joint-1",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T10:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T10:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T10:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "episode_id": "joint-2",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T11:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T11:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T11:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T11:01:00Z"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "episode_id": "solo-code-0",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T12:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T12:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T12:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T12:01:00Z"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "episode_id": "joint-4",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T13:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T13:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T13:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T13:01:00Z"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "episode_id": "joint-5",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T14:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T14:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T14:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T14:01:00Z"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "episode_id": "joint-6",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T15:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T15:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T15:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T15:01:00Z"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "episode_id": "joint-7",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T16:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T16:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T16:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T16:01:00Z"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "episode_id": "joint-8",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T17:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T17:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T17:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T17:01:00Z"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "episode_id": "joint-9",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T18:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T18:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T18:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T18:01:00Z"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "episode_id": "joint-10",
+      "spans": [
+        {
+          "capability": "code",
+          "end": "2026-01-15T19:50:00Z",
+          "passed": true,
+          "start": "2026-01-15T19:00:00Z"
+        },
+        {
+          "capability": "docs",
+          "end": "2026-01-15T19:49:00Z",
+          "passed": true,
+          "start": "2026-01-15T19:01:00Z"
+        }
+      ]
+    }
+  ]
+}

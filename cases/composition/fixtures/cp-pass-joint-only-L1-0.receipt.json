@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-pass-joint-only",
+  "claim_sha256": "ddb5685ab307f41b8f41b7d7f2d4d9a8b26823204eecd69e1bd9f3601e9e8ff5",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "c0ca3d2a348ae6127923422ef4e0adabe66de1f7e3838743cbf14ebbe4246adb",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "d87ff3d4c5a2ecadb0cabc751e2c7466b7cfea23c997b34aea76cf35d6d461a5",
+  "started_at": "2026-01-15T00:00:00Z"
+}

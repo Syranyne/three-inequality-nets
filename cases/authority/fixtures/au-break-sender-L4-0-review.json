@@ -1,0 +1,8 @@
+{
+  "case_id": "au-break-sender",
+  "claim_sha256": "68ada737eccc7fcc53a7aefc997c5cafaa6f5702719d58ecc3f7a526ed68487a",
+  "conclusion": "accept",
+  "evidence_sha256": "e38b40bfdb719b965732b47df9c0033fc40e10ef31a7d4de11b826044a7f6594",
+  "reviewer": "reviewer-b",
+  "signature": "36947f3653787a460360d43f3acf4081145e023e68e0a352176f1e3ae9f91030"
+}

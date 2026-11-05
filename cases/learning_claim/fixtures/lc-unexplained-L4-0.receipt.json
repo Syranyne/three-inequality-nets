@@ -1,0 +1,19 @@
+{
+  "case_id": "lc-unexplained",
+  "claim_sha256": "0e4b850fc6e1622f922fd97adee0656f03178c60adb42d10d9d340bb4d33aaf5",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "16e8ea120ee38bc3b072a3ef0cd6f8f33ca6d611d3eabcb1aa60b29503a6ef59",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "41c45203ec110b65566a9933b413e08632b580acfaa4af21bd225779312fd6af",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "02fa0b2cabdfa6a4cd841b1ec86372a35a15f860bc2c10603895ce051304077f",
+  "started_at": "2026-01-15T00:00:00Z"
+}

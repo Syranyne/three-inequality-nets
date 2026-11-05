@@ -1,0 +1,8 @@
+{
+  "case_id": "rt-break-object",
+  "claim_sha256": "9a7703a1ebe91fffb5cb975340b1d1753543bc8674bc04fafbb96d12a70ca808",
+  "conclusion": "accept",
+  "evidence_sha256": "66289726dbfea7631ec552ede8273b028eb276e8d83c10608d36b66cebb26d3d",
+  "reviewer": "reviewer-b",
+  "signature": "927b785554a509fa4be8fa2ffaf7cf594b1ccfd3fa0d0add288658f86cc71bee"
+}

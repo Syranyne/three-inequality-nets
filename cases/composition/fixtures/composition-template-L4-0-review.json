@@ -1,0 +1,8 @@
+{
+  "case_id": "composition-template",
+  "claim_sha256": "3cc10f41ea7ae4390d0bd02b7f2c652c1d1dbd3d2372e7df442af1c340449595",
+  "conclusion": "accept",
+  "evidence_sha256": "df05694b8b62a70fe4c97166d020cdfb42340eafaff1d74372d153d22931e473",
+  "reviewer": "reviewer-b",
+  "signature": "2988e5d8ff0f34bc70ed6c1412e0376366e03eb5fa984b1e2669513f26652488"
+}

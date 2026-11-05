@@ -1,0 +1,8 @@
+{
+  "case_id": "cp-break-priority",
+  "claim_sha256": "0cdeb991b4333a3537792aeb63ad5cf8ae177ada40e4ab23308a27d44e157729",
+  "conclusion": "accept",
+  "evidence_sha256": "6c0253cca9ab33a6ea43dc38b39b8196cddfb0391f169f1be33dc5a292a1bd59",
+  "reviewer": "reviewer-b",
+  "signature": "b4e7795964caf68d7122f6c0d1669aeb1aeee6abb219cfbf63b553e49ed274c4"
+}

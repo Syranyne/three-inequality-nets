@@ -1,0 +1,8 @@
+{
+  "case_id": "template-retrieval",
+  "claim_sha256": "a153fe526eb06a46522e077417ef1262082bdd43351014f3224f43b09ec80058",
+  "conclusion": "accept",
+  "evidence_sha256": "b94653de7043b3637e6f537c3dec2074c6d8d47688f1befef3c892f8ea9575ef",
+  "reviewer": "reviewer-b",
+  "signature": "e4766dc59db515ec9a3f33271bc37350770c9c1967660e3fba448693682f420d"
+}

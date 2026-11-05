@@ -1,0 +1,84 @@
+{
+  "claim": "估计被写成了已经测量过的事实",
+  "claimed_level": "L4",
+  "id": "au-break-fact",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": false,
+    "injected_authorization": false,
+    "sender": "agent-a",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-break-fact-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "f510884af2e6bfa674b10d77a44a4bc288563c612e51356704650feeff0a3383",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/au-break-fact-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "112a70d9b85ccfaa7dafc283605011793c3952605617fcab9adc5aadcf07dde3",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "fact-check-record",
+          "path": "cases/authority/fixtures/au-break-fact-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "436e752594065706ff5154ee694c3cda93dae0875dd28ca896bff5f588d72503",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-break-fact-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "601010bee4f7db82a8d8c44db127974ffdc8f4da48789dcd51ca71a4a791b62d",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-break-fact L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-break-fact-L4-out-0.txt",
+          "output_sha256": "05feef427476e1b0cd50f340f6dcfc57d8dc25ba43bfaa8b4b0ac64ecc287581",
+          "review_path": "cases/authority/fixtures/au-break-fact-L4-0-review.json",
+          "review_sha256": "0202d9df552408855a52e0ec7035fd9f561ef5b5b1fe94b86cb6948554f78fe1",
+          "receipt_path": "cases/authority/fixtures/au-break-fact-L4-0.receipt.json",
+          "receipt_sha256": "66c10aaaeb32b5cd13b3df63f2a705e79a64005977d4c1aa7fda0862181521f5"
+        }
+      ]
+    }
+  }
+}

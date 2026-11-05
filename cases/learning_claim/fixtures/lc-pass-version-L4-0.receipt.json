@@ -1,0 +1,19 @@
+{
+  "case_id": "lc-pass-version",
+  "claim_sha256": "3f550e61eefa1a4a5231c44f1caf4f09090ffe5e32216ba499e6bf1b6a335996",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "10220c07f8550f6028cc8cc0227c6b2ca9809bd9cad1024a655d5d0c36e3b615",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "5bc4ba766c1d14aa8b67b479227d699265cb8cc2fd938d7ee77c480fb23a2f94",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "7bb001b814a27be9cc612a10489602b62595d8eacbda7953cf5d450504aa7b71",
+  "started_at": "2026-01-15T00:00:00Z"
+}

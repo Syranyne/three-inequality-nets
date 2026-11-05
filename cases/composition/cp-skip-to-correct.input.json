@@ -1,0 +1,414 @@
+{
+  "claimed_level": "L4",
+  "id": "cp-skip-to-correct",
+  "net": "composition",
+  "observations": {
+    "capabilities": [
+      "code",
+      "docs"
+    ],
+    "conflicts": [
+      {
+        "capabilities": [
+          "code",
+          "docs"
+        ],
+        "chosen": "code",
+        "conflict_id": "conflict-1",
+        "episode_id": "joint-1",
+        "expected_winner": "code",
+        "injected": true,
+        "loser_handling": "deferred",
+        "started_at": "2026-01-15T10:10:00Z"
+      },
+      {
+        "capabilities": [
+          "code",
+          "docs"
+        ],
+        "chosen": "code",
+        "conflict_id": "conflict-2",
+        "episode_id": "joint-2",
+        "expected_winner": "code",
+        "injected": false,
+        "loser_handling": "deferred",
+        "started_at": "2026-01-15T11:10:00Z"
+      }
+    ],
+    "incidents": [
+      {
+        "action_id": "change-1",
+        "baseline": 0,
+        "consequence_at": "2026-01-15T10:06:00Z",
+        "consequence_metric": "error-count",
+        "corrected_at": "2026-01-15T10:09:00Z",
+        "correction_action_id": "repair-1",
+        "detected_at": "2026-01-15T10:08:00Z",
+        "detected_by": "self",
+        "episode_id": "joint-1",
+        "hints": [],
+        "incident_id": "incident-1",
+        "observed": 4,
+        "recheck": {
+          "at": "2026-01-15T20:00:00Z",
+          "joint_episode_id": "joint-10",
+          "metric_value": 0,
+          "tolerance": 0.5,
+          "verified_by": "reviewer-b"
+        },
+        "detection_log_ref": "cases/composition/fixtures/cp-skip-to-correct-detection-0.jsonl",
+        "detection_log_sha256": "740a73d89cf88996834961ab8416b9ba3508f42ff37493741400cb33bd62784a"
+      }
+    ],
+    "joint": {
+      "episodes": [
+        {
+          "actions": [
+            {
+              "action_id": "change-1",
+              "actor": "self",
+              "at": "2026-01-15T10:05:00Z"
+            },
+            {
+              "action_id": "repair-1",
+              "actor": "self",
+              "at": "2026-01-15T10:09:00Z"
+            }
+          ],
+          "episode_id": "joint-1",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T10:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T10:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T10:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-2",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T11:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T11:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T11:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T11:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-3",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T12:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T12:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T12:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T12:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-4",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T13:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T13:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T13:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T13:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-5",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T14:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T14:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T14:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T14:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-6",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T15:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T15:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T15:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T15:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-7",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T16:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T16:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T16:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T16:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-8",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T17:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T17:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T17:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T17:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-9",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T18:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T18:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T18:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T18:01:00Z"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "episode_id": "joint-10",
+          "spans": [
+            {
+              "capability": "code",
+              "end": "2026-01-15T19:50:00Z",
+              "passed": true,
+              "start": "2026-01-15T19:00:00Z"
+            },
+            {
+              "capability": "docs",
+              "end": "2026-01-15T19:49:00Z",
+              "passed": true,
+              "start": "2026-01-15T19:01:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    "policy": {
+      "declared_at": "2026-01-14T00:00:00Z",
+      "order": [
+        "code",
+        "docs"
+      ],
+      "policy_id": "priority-1",
+      "rules": [
+        {
+          "when": [
+            "code",
+            "docs"
+          ],
+          "winner": "code"
+        }
+      ],
+      "sha256": "9b8df6c11cef2d7da32b87c51350dba54f72178a2779ce2ad31a2af2c05ad080"
+    },
+    "solo": {
+      "code": {
+        "passes": 10,
+        "run_ids": [
+          "solo-code-0",
+          "solo-code-1",
+          "solo-code-2",
+          "solo-code-3",
+          "solo-code-4",
+          "solo-code-5",
+          "solo-code-6",
+          "solo-code-7",
+          "solo-code-8",
+          "solo-code-9"
+        ],
+        "runs": 10
+      },
+      "docs": {
+        "passes": 10,
+        "run_ids": [
+          "solo-docs-0",
+          "solo-docs-1",
+          "solo-docs-2",
+          "solo-docs-3",
+          "solo-docs-4",
+          "solo-docs-5",
+          "solo-docs-6",
+          "solo-docs-7",
+          "solo-docs-8",
+          "solo-docs-9"
+        ],
+        "runs": 10
+      }
+    },
+    "thresholds": {
+      "max_joint_drop": 0.1,
+      "min_conflicts": 2,
+      "min_pass_rate": 0.8,
+      "min_runs": 5
+    },
+    "subject_id": "self"
+  },
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/solo.txt",
+          "produced_by": "runner-a",
+          "sha256": "c0ca3d2a348ae6127923422ef4e0adabe66de1f7e3838743cbf14ebbe4246adb",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-skip-to-correct-L1-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-skip-to-correct-L1-0.receipt.json",
+          "receipt_sha256": "5115384a595ce8eb16ffcdad18f0cea1f51cf460b1ec3d056b339307b9447143"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "solo-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-skip-to-correct-solo.json",
+          "produced_by": "runner-a",
+          "sha256": "5f453b1a43134186142e32f0bcdccccbf6bc7212c9ca7cae65b38a05cd8ed48b",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-skip-to-correct-L1-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "receipt_path": "cases/composition/fixtures/cp-skip-to-correct-L1-1.receipt.json",
+          "receipt_sha256": "b6afd925a2204df59cfbf842a8342aad08ab4b69a287d1bcac1497d1b42e13d9"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": []
+    },
+    "L3": {
+      "evidence": []
+    },
+    "L4": {
+      "evidence": [
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "trial-record",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/correction.txt",
+          "produced_by": "runner-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "df05694b8b62a70fe4c97166d020cdfb42340eafaff1d74372d153d22931e473",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-skip-to-correct-L4-out-0.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "review_path": "cases/composition/fixtures/cp-skip-to-correct-L4-0-review.json",
+          "review_sha256": "99898042124e4d33cf5d5cae915d6881841b746193700936bc94093366096176",
+          "receipt_path": "cases/composition/fixtures/cp-skip-to-correct-L4-0.receipt.json",
+          "receipt_sha256": "0a212fee067341744b5340c2cd7ce86692546d46472ac7066394387d2da1d997"
+        },
+        {
+          "command": [
+            "tool",
+            "trial"
+          ],
+          "exit_code": 0,
+          "finished_at": "2026-01-15T21:00:00Z",
+          "kind": "incident-observations",
+          "output_summary": "Synthetic trial record.",
+          "path": "cases/composition/fixtures/cp-skip-to-correct-incidents.json",
+          "produced_by": "runner-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "51f0073b07667046e986018a503f2ebdb3cb019387fb06a75b26ac03648f0272",
+          "started_at": "2026-01-15T00:00:00Z",
+          "output_path": "cases/composition/fixtures/cp-skip-to-correct-L4-out-1.txt",
+          "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+          "review_path": "cases/composition/fixtures/cp-skip-to-correct-L4-incidents-review.json",
+          "review_sha256": "e0888c1a3ec1fa971c8127cf546c4db915f591cdef598374703c731e1a2420af",
+          "receipt_path": "cases/composition/fixtures/cp-skip-to-correct-L4-1.receipt.json",
+          "receipt_sha256": "b95610949c651cbdc4faddd91b92d5d40f1158f61e64b3a65b7f6057807aaaa5"
+        }
+      ]
+    }
+  }
+}

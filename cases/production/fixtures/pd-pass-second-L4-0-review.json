@@ -1,0 +1,8 @@
+{
+  "case_id": "pd-pass-second",
+  "claim_sha256": "2f12c098205aa26f450a3fe881bd3131263da2aa18be554312a527154305e02a",
+  "conclusion": "accept",
+  "evidence_sha256": "9c2ba446984e408f55533ba6ae728810224088c9877527aae1042f617cd834c2",
+  "reviewer": "reviewer-b",
+  "signature": "7f6163e476d5948fcc146ce1d2548bc5ae36f2368079a3afdc5f66536e03bc74"
+}

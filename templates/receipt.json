@@ -1,0 +1,99 @@
+{
+  "acceptance": {
+    "criteria": [
+      {
+        "blocking": true,
+        "criterion_id": "AC-01",
+        "statement": "The note stays inside the write root."
+      }
+    ],
+    "frozen_before_implementation": true
+  },
+  "authority": {
+    "forbidden_actions": [
+      "installation",
+      "publishing",
+      "restart",
+      "running_replacement"
+    ],
+    "user_evidence": {
+      "exact_quote": "Write the candidate note and keep a frozen check.",
+      "message_id": "msg-1",
+      "source_type": "USER_MESSAGE"
+    },
+    "write_roots": [
+      "templates/fixtures"
+    ]
+  },
+  "baseline": {
+    "anchors": [
+      {
+        "artifact_type": "FILE",
+        "path": "templates/fixtures/baseline.txt",
+        "sha256": "4b654bd1437066b13498661f3ca14774daf1066d072036beffaf06f0c014250e"
+      }
+    ]
+  },
+  "candidate": {
+    "artifact_type": "FILE",
+    "path": "templates/fixtures/candidate.txt",
+    "sha256": "1e81270f1a47dce22a2e4985250c74b2e3374443734f1492b03ea2cd2af4ec48"
+  },
+  "decision": "PASS_CANDIDATE",
+  "open_items": [],
+  "routing": {
+    "bypass_reason": null,
+    "heavy_triggers": [],
+    "track": "LIGHT",
+    "writes_files_or_changes_behavior": true
+  },
+  "schema_version": "fournets.receipt.v1",
+  "self_report_not_sufficient": true,
+  "semantic_checks": [
+    {
+      "check_id": "note-scope",
+      "criterion_ids": [
+        "AC-01"
+      ],
+      "observed": true,
+      "result_path": "templates/fixtures/semantic.txt",
+      "result_sha256": "e727d68d1be3eb53700bbccf840d3af14021f2602a822e347461a71b52583189",
+      "status": "PASS"
+    }
+  ],
+  "task_id": "queue-note",
+  "test_strategy": {
+    "justification": null,
+    "mode": "RED_GREEN"
+  },
+  "tests": [
+    {
+      "command_argv": [
+        "py",
+        "-3",
+        "check"
+      ],
+      "expected_exit": "NONZERO",
+      "observed_exit_code": 1,
+      "phase": "RED",
+      "result_path": "templates/fixtures/red.txt",
+      "result_sha256": "6ace33171ce0acb6891e3cc311d75a97aa429d77c05cba600d49ed9652ed49de",
+      "status": "EXPECTED_FAIL",
+      "test_id": "red-control"
+    },
+    {
+      "command_argv": [
+        "py",
+        "-3",
+        "check"
+      ],
+      "expected_exit": "ZERO",
+      "observed_exit_code": 0,
+      "phase": "GREEN",
+      "result_path": "templates/fixtures/green.txt",
+      "result_sha256": "068d48ea288a4f2178367c403a39abbb8d7ade9766b5cf33bedfabf4fd6443f2",
+      "status": "PASS",
+      "test_id": "green-control"
+    }
+  ]
+}

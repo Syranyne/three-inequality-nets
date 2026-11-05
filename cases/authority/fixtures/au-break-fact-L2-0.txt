@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "author-record",
+  "stage": "L2",
+  "note": "au-break-fact:L2-0:cases/shared/record.txt"
+}

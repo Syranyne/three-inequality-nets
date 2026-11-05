@@ -1,0 +1,8 @@
+{
+  "case_id": "template-production",
+  "claim_sha256": "b53745105fdc85cfd5e52b0b893b0815e3b5b23c576a0ff65974b7a63a6a1851",
+  "conclusion": "accept",
+  "evidence_sha256": "1128d7207056e5d12952d6d73ae87e59415384ddf8af839b7552c6370f50235a",
+  "reviewer": "reviewer-b",
+  "signature": "32695cae47b00b2dbd864e2f89e704b2affab567dd1128d406198b1ba6b82a1e"
+}

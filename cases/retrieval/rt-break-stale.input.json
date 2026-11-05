@@ -1,0 +1,79 @@
+{
+  "claim": "正文读懂了，材料已经过期",
+  "claimed_level": "L4",
+  "id": "rt-break-stale",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": false,
+    "object_aligned": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/retrieval/fixtures/rt-break-stale-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "3ced83878182e10bf1a5d3ea36d4ec49c5db16748a2c67b37d34aecd408c72d6",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "alignment-record",
+          "path": "cases/retrieval/fixtures/rt-break-stale-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "7247b691270da86fdd5cea95c035f85629228b9886a3520c40b9fb45af90f0e8",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "authority-record",
+          "path": "cases/retrieval/fixtures/rt-break-stale-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "d5eb55ad03db5bc3dc81ee57ebbd5ccdd5a2fe70bb5f43cc625ff18555c567d9",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "conditions-record",
+          "path": "cases/retrieval/fixtures/rt-break-stale-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "8935ec7b60fd3d617669574b56b5a7aaeb1b24130823429d30e5520eec072eef",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "rt-break-stale L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/retrieval/fixtures/rt-break-stale-L4-out-0.txt",
+          "output_sha256": "66c07c25204c4f9b023423723a57bae3f8a9ba4e2c439cbcb3d5ad37763f5f64",
+          "review_path": "cases/retrieval/fixtures/rt-break-stale-L4-0-review.json",
+          "review_sha256": "f2f02286ec89cbe29199671bfec7ba1a1f39fd578ba2ce0136149a8aa9e62615",
+          "receipt_path": "cases/retrieval/fixtures/rt-break-stale-L4-0.receipt.json",
+          "receipt_sha256": "302f9d317fc9ddf5209ec30c02e2eaaf94b578b7606974cfa2dcc1e206f35b51"
+        }
+      ]
+    }
+  }
+}

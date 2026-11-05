@@ -1,0 +1,19 @@
+{
+  "case_id": "au-skip-fact",
+  "claim_sha256": "adfcd3b8464aba159046417ea2cab6e012d08ab4f092d661a2ff5fb9be6718bd",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "952d763f51a332eb524ec3b39e1a17115bcf869b8b50a003d870e3c5e86af8a1",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "1eafa26c109765f1b946526a12d7361bd3e7d90a2df549ae36d5184b84a38170",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "a88da1dc17c45a7219a3ab0b0c7e4261a1eea8f2a394bd41312a24138bd17a35",
+  "started_at": "2026-01-15T00:00:00Z"
+}

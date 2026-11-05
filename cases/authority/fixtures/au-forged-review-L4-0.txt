@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "write-approval-record",
+  "stage": "L4",
+  "note": "au-forged-review:L4-0:cases/shared/record.txt"
+}

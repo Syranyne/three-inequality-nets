@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-forged-policy-after",
+  "claim_sha256": "61a625bcc2a0f161afb7f28ae27e7fc32171b056800957a8c3123c8397b15f2a",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "4d6e73ff65c4cd69927e9cd88a7d552aef11dcde8ea1fa381f2d453438b69eab",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "716612aa885d5fe8a595819e59a19d928193ece04078e796a851bdedc5c4b228",
+  "started_at": "2026-01-15T00:00:00Z"
+}

@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "dataset-record",
+  "stage": "L2",
+  "note": "lc-unexplained:L2-0:cases/shared/record.txt"
+}

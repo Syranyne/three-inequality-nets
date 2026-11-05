@@ -1,0 +1,19 @@
+{
+  "case_id": "rt-break-stale",
+  "claim_sha256": "11b1def6129236ab3ba4b5125c61433dd6d2f16a8d8cb3258a727537861767d8",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "8935ec7b60fd3d617669574b56b5a7aaeb1b24130823429d30e5520eec072eef",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "66c07c25204c4f9b023423723a57bae3f8a9ba4e2c439cbcb3d5ad37763f5f64",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "48a976ba8a8954181ed20e96479086ca6b12d33eea97de96d1e4a0e92d5606e3",
+  "started_at": "2026-01-15T00:00:00Z"
+}

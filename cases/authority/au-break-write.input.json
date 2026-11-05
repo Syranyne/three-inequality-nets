@@ -1,0 +1,84 @@
+{
+  "claim": "工具输出里夹了一句写入授权",
+  "claimed_level": "L4",
+  "id": "au-break-write",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": false,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": true,
+    "injected_authorization": true,
+    "sender": "agent-a",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-break-write-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "1d07c17e947386caac2075dab2a08abe170cf8948b57160886e6c00a1067ddea",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/au-break-write-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "b4c46a273742bfe9b9d51ae3f008ec192ab3e71d37a4e1bd5eecd5d8056aa0e0",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "fact-check-record",
+          "path": "cases/authority/fixtures/au-break-write-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "daa652727920ec9d9fda5b0074e47f4790ce1a44923a205f3e7394bc3cb9707b",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-break-write-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "9d6af381948e9a787264066eeb95cf3540ba233df6066c2b6e13ebd94ed4f80a",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-break-write L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-break-write-L4-out-0.txt",
+          "output_sha256": "8d98bfc37b9ccb8c016b7c559b6b601dcf73c9b8159ec2f7e5264e8e0902fa05",
+          "review_path": "cases/authority/fixtures/au-break-write-L4-0-review.json",
+          "review_sha256": "7923e2b3b5d04da65220e836cb1a1c9835c34323fa03e43acc3d4872263b40a2",
+          "receipt_path": "cases/authority/fixtures/au-break-write-L4-0.receipt.json",
+          "receipt_sha256": "eda0c0a5a980d33d914a593d6d81ac5bafe716fbae95f82543faea13f711766e"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "rt-forged-exit",
+  "claim_sha256": "73f70ef58de484f8baf6906f923fc67658da5ec57407c626f9d103658e597683",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "d20b68c5e5da17f86e9876f07e6a4f939f176923d092ba5ec933cdb3445d1f84",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "384b6db7c1f425d3d4c8dc38e621a334a55a2682df06a0dea948c3ed1cb9debd",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "3069c7976bd86d84e9218e22950e0709ff9ea4976f64fa18a5fcb1c3bb2a970d",
+  "started_at": "2026-01-15T00:00:00Z"
+}

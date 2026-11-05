@@ -1,0 +1,40 @@
+{
+  "claim": "只有窗口记录就写成已经学会",
+  "claimed_level": "L4",
+  "id": "lc-skip-window",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": true,
+    "in_dataset": false,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/shared/record-lc-skip-window-L1.json",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "7d9cc04df6587bb7f34264e81457ac602447ca52afdf88022cbccbc77e818971",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": []
+    },
+    "L3": {
+      "evidence": []
+    },
+    "L4": {
+      "evidence": []
+    }
+  }
+}

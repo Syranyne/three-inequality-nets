@@ -1,0 +1,19 @@
+{
+  "case_id": "rt-break-object",
+  "claim_sha256": "9a7703a1ebe91fffb5cb975340b1d1753543bc8674bc04fafbb96d12a70ca808",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "66289726dbfea7631ec552ede8273b028eb276e8d83c10608d36b66cebb26d3d",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "75f8b7ca9f20f9d8423d5c9d242b07ab1e5824727cb71c57bd0db763db58c349",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "c7171f8b2dfd789eae7379abb4cd423bf6c4e7c1627bfde784861024a6ff876c",
+  "started_at": "2026-01-15T00:00:00Z"
+}

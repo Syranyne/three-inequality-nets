@@ -1,0 +1,8 @@
+{
+  "case_id": "lc-forged-hint",
+  "claim_sha256": "3d00de3453bc2f7ca4f7d91ed6b96dfb1e07fb3b2acbf245ef38f32ff14223e5",
+  "conclusion": "accept",
+  "evidence_sha256": "3a0c2b3861bf31658a86924b02fbf753bfe698d3b3547bbf31abea4a80fc52f2",
+  "reviewer": "reviewer-b",
+  "signature": "2e5423ae6bcddb54713a333b2b97e7eaa8f3b329c0f21eb9c5d15b8819f7df92"
+}

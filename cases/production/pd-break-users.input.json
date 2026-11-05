@@ -1,0 +1,102 @@
+{
+  "claim": "验收稳定，但把自评当成了用户信号",
+  "claimed_level": "L4",
+  "id": "pd-break-users",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "real_user_signal": false,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": true,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/pd-break-users-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/pd-break-users-baseline.json",
+        "source_sha256": "d9e1193f20ae86d024160e488d926e90f71fc74af8050ee5ff5faa56d2c0c987"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/pd-break-users-competitor.json",
+          "source_sha256": "a942d2d6be83b2757f3b9205e6f4e536a7c2e23b9ae7a6679360bf1d44922068"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/pd-break-users-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4cdbb0af8361a8ddf3ee544e55a3946d26c5697570e25fbbe6066fa101ab0fb0",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "release-record",
+          "path": "cases/production/fixtures/pd-break-users-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4f8decb5d8c5b70d88fc220aab204eb99ba68d12dacbaa3adff0b8333b6b52b2",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "user-evaluation",
+          "path": "cases/production/fixtures/pd-break-users-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "e15af4fbe090c0c9aad28b830058134cf5272b9604999ddbd846bf5d999cc884",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/pd-break-users-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "9cbab5500cc2e03cb90dc33c408dd4a03eb8607b7869c8f384b50d5b5707e7db",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "pd-break-users L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/pd-break-users-L4-out-0.txt",
+          "output_sha256": "fdba4a146d870bc93c63c2cb769e09566c41c4f968bce2ac86a060274b3bab08",
+          "review_path": "cases/production/fixtures/pd-break-users-L4-0-review.json",
+          "review_sha256": "1f9a782d5419a57fcaec62ba5d6f3f7dbb0165d2619ccf7a91bb1335bb76f802",
+          "receipt_path": "cases/production/fixtures/pd-break-users-L4-0.receipt.json",
+          "receipt_sha256": "d309f705bc6c39db04e38b33881c1563ab74bfae0d80609ace772656636188d9"
+        }
+      ]
+    }
+  }
+}

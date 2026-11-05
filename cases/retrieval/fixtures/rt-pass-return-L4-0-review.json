@@ -1,0 +1,8 @@
+{
+  "case_id": "rt-pass-return",
+  "claim_sha256": "d331a429ae54b69295ce3fe5b6bd4abdc133941a8a468f6ee92703bcfe0d1dee",
+  "conclusion": "accept",
+  "evidence_sha256": "5b53263ceb2c1b69cffba3e0030a8cade5a46b8866a0ef003ea29f63c5b3d8f7",
+  "reviewer": "reviewer-b",
+  "signature": "556fdd954e4dcea9bc8a5585543ba72c0bb77ea5df1da7e9ac4076034a1dd3e7"
+}

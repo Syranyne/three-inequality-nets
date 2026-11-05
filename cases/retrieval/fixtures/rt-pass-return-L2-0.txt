@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "alignment-record",
+  "stage": "L2",
+  "note": "rt-pass-return:L2-0:cases/shared/record.txt"
+}

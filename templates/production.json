@@ -1,0 +1,106 @@
+{
+  "claim": "四个环节的证据都在",
+  "claimed_level": "L4",
+  "id": "template-production",
+  "net": "production",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "benchmark_present": true,
+    "real_user_signal": true,
+    "release_recorded": true,
+    "repeat_stable": true,
+    "self_scored": false,
+    "user_signal_ref": "cases/production/fixtures/template-production-users.json",
+    "user_signal_sha256": "b05f020edb6a7028cdded4257acbd764f96a123231aa7664f97aa2b069b0c358",
+    "user_sample_size": 30,
+    "benchmark": {
+      "metric": "success_rate",
+      "higher_is_better": true,
+      "ours": 0.9,
+      "ours_source_ref": "cases/production/fixtures/template-production-ours.json",
+      "ours_source_sha256": "0801761cdcb1c22b3faa90ff45f4b0a6686c43df63622c7dc844c1382c8ca7a3",
+      "baseline": {
+        "name": "baseline-a",
+        "value": 0.5,
+        "source_ref": "cases/production/fixtures/template-production-baseline.json",
+        "source_sha256": "10c9ef6b6cf1ccaa27efcd8deaa8f5cd03ccbc6f7c59d189dac3d70efe5ca428"
+      },
+      "competitors": [
+        {
+          "name": "competitor-a",
+          "value": 0.7,
+          "source_ref": "cases/production/fixtures/template-production-competitor.json",
+          "source_sha256": "30d9e5fc6d8ee56e563c8c9069cdba956bf17c52a73d6eec2e1e6c33638ed525"
+        }
+      ],
+      "sample_size": 30
+    }
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "sample-record",
+          "path": "cases/production/fixtures/template-production-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4f35b59bfae31a894984b1d743a6cad4ab1e27f951a18d8e3486080157c26387",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "release-record",
+          "path": "cases/production/fixtures/template-production-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "a32ca1feaacef52cd4c11deeb370f6e5adf0bdf8d5b6c4f7b1aabe0d133431b7",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "user-evaluation",
+          "path": "cases/production/fixtures/template-production-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "27c0695cfa1318fa1af0ebac2ddc361cfc34c737dab2f3bd13711650969d373c",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "benchmark-record",
+          "path": "cases/production/fixtures/template-production-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "1128d7207056e5d12952d6d73ae87e59415384ddf8af839b7552c6370f50235a",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "ok",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/production/fixtures/template-production-L4-out-0.txt",
+          "output_sha256": "9f2a59a60e65fbcd5a3e1b7248adf92890ce3a32b19e43fb4751c2657196de13",
+          "review_path": "cases/production/fixtures/template-production-L4-0-review.json",
+          "review_sha256": "ea91ba5d577c566630f377351863ab838961f4297dc289034b7565339445a5bf",
+          "receipt_path": "templates/fixtures/template-production-L4-0.receipt.json",
+          "receipt_sha256": "9f8fa69768c09c25925dbf680eb0279779ac02875e5da2252970f64e7ca4bf61"
+        }
+      ]
+    }
+  }
+}

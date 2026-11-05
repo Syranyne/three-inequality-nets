@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-break-priority",
+  "claim_sha256": "0cdeb991b4333a3537792aeb63ad5cf8ae177ada40e4ab23308a27d44e157729",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "591abef73b583a2ad3d56b9304c2c576f1f63af8acea15c21b2334366c9c8de9",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "b0591824e7a263114824bd1f1689466267f0ff855606a04c44fffc427eacf41e",
+  "started_at": "2026-01-15T00:00:00Z"
+}

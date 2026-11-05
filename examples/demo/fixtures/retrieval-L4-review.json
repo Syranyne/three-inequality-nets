@@ -1,0 +1,8 @@
+{
+  "case_id": "按检索结果改配置",
+  "claim_sha256": "1c05856b453850ab85709d873ccecc27d76531e3cf97d22d054d16aa508a9b14",
+  "conclusion": "accept",
+  "evidence_sha256": "f9f215eeb82e9eaa062c29f65bc1cd2ac9a22d113e870dd86e2b6a821625e3dc",
+  "reviewer": "reviewer-b",
+  "signature": "7df505bdf781673f8d84c4e5406601efc1becb3b49ab13c0fb6457b2a0648b33"
+}

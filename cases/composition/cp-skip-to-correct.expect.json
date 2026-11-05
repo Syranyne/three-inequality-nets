@@ -1,0 +1,10 @@
+{
+  "broken_link": "会做→能同时做",
+  "category": "skip_step",
+  "required_reasons": [
+    "later_evidence_does_not_backfill",
+    "skip_gap",
+    "claimed_above_proven"
+  ],
+  "verdict": "FAIL"
+}

@@ -1,0 +1,83 @@
+{
+  "claim": "标注对了，留出测试没有变好",
+  "claimed_level": "L4",
+  "id": "lc-break-infer",
+  "net": "learning_claim",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "annotator": "reviewer-b",
+    "held_out_improved": false,
+    "in_dataset": true,
+    "label_matches": true,
+    "level_matches": true,
+    "prompt_contains_answer": false,
+    "proposer": "agent-a"
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "window-record",
+          "path": "cases/learning_claim/fixtures/lc-break-infer-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "ff6a30cf99038bb02cf4540d786bd6fe597be73e13caf40dcbf7def8024d1211",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "dataset-record",
+          "path": "cases/learning_claim/fixtures/lc-break-infer-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "41eca0f5e607ce57958e3f8131d36e95943c4f424395950f4546c73179f971d4",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "label-record",
+          "path": "cases/learning_claim/fixtures/lc-break-infer-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4c0befba04b69d983a7279a88822b281223c5798f0a4f5afee0d803cabca44fa",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "held-out-record",
+          "path": "cases/learning_claim/fixtures/lc-break-infer-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "44dbae3c53e4550bc627601900c592734e44f633c027c4a91024e982a2afa546",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "lc-break-infer L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/learning_claim/fixtures/lc-break-infer-L4-out-0.txt",
+          "output_sha256": "3e258019722f273b76021c4551c24d439dc68951a82c83a8fe6f286237ba5a20",
+          "review_path": "cases/learning_claim/fixtures/lc-break-infer-L4-0-review.json",
+          "review_sha256": "5d965392731d1dc022334c5179cb05a2ffbe411d7b7ba8369db2e65c70a54f35",
+          "receipt_path": "cases/learning_claim/fixtures/lc-break-infer-L4-0.receipt.json",
+          "receipt_sha256": "0abfe4f1551d31568336a4b5849a2e645fc211f4ba3c131ced410bd4174df6d4"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "au-unexplained",
+  "claim_sha256": "b1056b64278a4347c45bcbc9d663a5d4a3da6672d5759578166f669f6138fe1a",
+  "conclusion": "accept",
+  "evidence_sha256": "465d6b8cb3fb2cb703f09025c480d551bb16e670d16d8fb1e087c73cebd6998c",
+  "reviewer": "reviewer-b",
+  "signature": "ecf58a6d329adade2b8a32ed979c3005d6b694a275951c16bee8a5af047256c3"
+}

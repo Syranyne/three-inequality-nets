@@ -1,0 +1,19 @@
+{
+  "case_id": "template-retrieval",
+  "claim_sha256": "a153fe526eb06a46522e077417ef1262082bdd43351014f3224f43b09ec80058",
+  "command": [
+    "py",
+    "-3",
+    "-c",
+    "print('ok')"
+  ],
+  "evidence_sha256": "b94653de7043b3637e6f537c3dec2074c6d8d47688f1befef3c892f8ea9575ef",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T00:00:02Z",
+  "output_sha256": "9f2a59a60e65fbcd5a3e1b7248adf92890ce3a32b19e43fb4751c2657196de13",
+  "producer": "worker-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "ac21ca19d30dc60ff707201b1aeed1f82d4e4d131af9ac014ffb2841c187937f",
+  "started_at": "2026-01-15T00:00:00Z"
+}

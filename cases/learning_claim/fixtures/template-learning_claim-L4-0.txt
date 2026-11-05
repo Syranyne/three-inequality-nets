@@ -1,0 +1,5 @@
+{
+  "evidence_kind": "held-out-record",
+  "stage": "L4",
+  "note": "template-learning_claim:L4:0"
+}

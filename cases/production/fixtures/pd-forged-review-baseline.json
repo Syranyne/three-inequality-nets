@@ -1,0 +1,8 @@
+{
+  "attested_by": "bench-lab-a",
+  "case_id": "pd-forged-review",
+  "claim_sha256": "09196ac47559eed2462b32f6d4f22b8fe1340acd4c2601e1e9690a7f3819ef09",
+  "origin": "synthetic fixture: baseline-a",
+  "signature": "91775963891462a1bea04de90450bd7a881ad2ab35e9b6f0e667d691fa7ec155",
+  "value": 0.5
+}

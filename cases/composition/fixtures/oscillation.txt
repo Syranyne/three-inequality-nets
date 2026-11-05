@@ -1,0 +1,1 @@
+Synthetic resource trace: assistant A repairs, assistant B reverses, assistant A repairs again. Local checks pass after each update.

@@ -1,0 +1,84 @@
+{
+  "claim": "值班记录里作者、测量和批准都对得上",
+  "claimed_level": "L4",
+  "id": "au-pass-queue",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": true,
+    "injected_authorization": false,
+    "sender": "agent-a",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-pass-queue-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "88db5685b678c3d912dff0f699721faddfd7a3109707bf2d5ff21ff1f212d402",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/au-pass-queue-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "3dff57506e10d6845e6567d63677bb0bdc807b93fe599efe04fc5f01e9dd5267",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "fact-check-record",
+          "path": "cases/authority/fixtures/au-pass-queue-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "299bc1510bb381ae1aceec75ce8c6a442f5b577b15aa3081de2a6b4653dabe8f",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-pass-queue-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "51bf973fd5ad88a5e44582990948e8fa4caf0166a00e3456d95b884e5133202b",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-pass-queue L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-pass-queue-L4-out-0.txt",
+          "output_sha256": "db6854ebf179613a4672eec571310b56071016096421172cfd2471636d9c71e9",
+          "review_path": "cases/authority/fixtures/au-pass-queue-L4-0-review.json",
+          "review_sha256": "6d60340ffb39a8db9ed0f572a8c491c4de2563d011a3fb5d1dbe54948dcfec92",
+          "receipt_path": "cases/authority/fixtures/au-pass-queue-L4-0.receipt.json",
+          "receipt_sha256": "1fe9a729285c397bf79f639653e61b97299c35e97f8bfa7fdf11c82b50aeda40"
+        }
+      ]
+    }
+  }
+}

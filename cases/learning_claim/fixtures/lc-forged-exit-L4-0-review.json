@@ -1,0 +1,8 @@
+{
+  "case_id": "lc-forged-exit",
+  "claim_sha256": "36781c08bc8b22f122a473463df2187ad24e719a33a9ecf25c6dd38044ee9cef",
+  "conclusion": "accept",
+  "evidence_sha256": "8c13d592ffa7d5c84d65d30365ebd49faee9d3ef824095ac904cc6dbf30de93b",
+  "reviewer": "reviewer-b",
+  "signature": "890cd881deaf62ab82465b32e87636f62f350e9abf6fa5ae804f1711a10c1f75"
+}

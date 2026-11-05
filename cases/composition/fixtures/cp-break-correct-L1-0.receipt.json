@@ -1,0 +1,17 @@
+{
+  "case_id": "cp-break-correct",
+  "claim_sha256": "63e94def9c22e86504b020a91b3fbe414d15ebdc05b04146147f830e6accf079",
+  "command": [
+    "tool",
+    "trial"
+  ],
+  "evidence_sha256": "c0ca3d2a348ae6127923422ef4e0adabe66de1f7e3838743cbf14ebbe4246adb",
+  "exit_code": 0,
+  "finished_at": "2026-01-15T21:00:00Z",
+  "output_sha256": "b0e5c58dfea8c282ecdd3965cc0fa8c60938a9bde27b0ffdf3d593bc00fb614e",
+  "producer": "runner-a",
+  "runner": "runner-lab-a",
+  "schema_version": "fournets.exec_receipt.v1",
+  "signature": "11db48328740574558af5b565ff2016f8483a0c4441212dba395ec7415d488e4",
+  "started_at": "2026-01-15T00:00:00Z"
+}

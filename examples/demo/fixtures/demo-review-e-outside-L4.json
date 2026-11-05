@@ -1,0 +1,8 @@
+{
+  "case_id": "demo-c8",
+  "claim_sha256": "c3f73eb1fd93252fa8f3fc39b89b5f76564b120e68531cb9d34e301d40c7e92b",
+  "conclusion": "accept",
+  "evidence_sha256": "d52696bf4409661f4be2362c7cc732300794fbcf4fa253925cfda0a3e81b4487",
+  "reviewer": "reviewer-b",
+  "signature": "eae0e5547d6aa050d3094422c4e93fd1aa2e85c6f8c4879edc3e19231ec4082d"
+}

@@ -1,0 +1,36 @@
+{
+  "claim": "检索摘要直接拿去改配置",
+  "claimed_level": "L4",
+  "id": "rt-skip-hit",
+  "net": "retrieval",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "conditions_met": true,
+    "current_authority": true,
+    "object_aligned": false
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "hit-record",
+          "path": "cases/shared/record-rt-skip-hit-L1.json",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "4c1016dea869f0fbde6acc31f65a0d0f90b0adaa3998d7377c7d12425e8593e3",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": []
+    },
+    "L3": {
+      "evidence": []
+    },
+    "L4": {
+      "evidence": []
+    }
+  }
+}

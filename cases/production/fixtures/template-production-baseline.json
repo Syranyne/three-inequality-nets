@@ -1,0 +1,8 @@
+{
+  "attested_by": "bench-lab-a",
+  "case_id": "template-production",
+  "claim_sha256": "b53745105fdc85cfd5e52b0b893b0815e3b5b23c576a0ff65974b7a63a6a1851",
+  "origin": "synthetic fixture: baseline-a",
+  "signature": "badc426238953e1506bfffbf16b831132df8a18b70455c76f758638ebf2fb1d8",
+  "value": 0.5
+}

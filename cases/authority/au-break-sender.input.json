@@ -1,0 +1,84 @@
+{
+  "claim": "转发者被当成了作者",
+  "claimed_level": "L4",
+  "id": "au-break-sender",
+  "net": "authority",
+  "outside_model": false,
+  "schema_version": "fournets.net_input.v1",
+  "signals": {
+    "approval_covers_key": true,
+    "asserted_as_fact": true,
+    "author": "agent-a",
+    "fact_checked": true,
+    "injected_authorization": false,
+    "sender": "agent-c",
+    "treat_sender_as_author": true,
+    "write_attempted": true
+  },
+  "stages": {
+    "L1": {
+      "evidence": [
+        {
+          "kind": "message-record",
+          "path": "cases/authority/fixtures/au-break-sender-L1-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "3f10aa6f1506f3f7ea822facd5500a6541290fc5aeb7eda8c964948e0ee9643e",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L2": {
+      "evidence": [
+        {
+          "kind": "author-record",
+          "path": "cases/authority/fixtures/au-break-sender-L2-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "39d79061d4292775a34f86715603c93cecf85e44b3971d9579d06b57fcfe20e5",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L3": {
+      "evidence": [
+        {
+          "kind": "fact-check-record",
+          "path": "cases/authority/fixtures/au-break-sender-L3-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "",
+          "sha256": "077763ede0e6cd07e1d0d4119614a8c71f6c93d97f2e3e8346ae1b61284239ab",
+          "timestamp": "2026-01-15T00:00:00Z"
+        }
+      ]
+    },
+    "L4": {
+      "evidence": [
+        {
+          "kind": "write-approval-record",
+          "path": "cases/authority/fixtures/au-break-sender-L4-0.txt",
+          "produced_by": "worker-a",
+          "reviewed_by": "reviewer-b",
+          "sha256": "e38b40bfdb719b965732b47df9c0033fc40e10ef31a7d4de11b826044a7f6594",
+          "timestamp": "2026-01-15T00:00:00Z",
+          "command": [
+            "py",
+            "-3",
+            "-c",
+            "print('ok')"
+          ],
+          "exit_code": 0,
+          "output_summary": "au-break-sender L4",
+          "started_at": "2026-01-15T00:00:00Z",
+          "finished_at": "2026-01-15T00:00:02Z",
+          "output_path": "cases/authority/fixtures/au-break-sender-L4-out-0.txt",
+          "output_sha256": "d8b42764f762e76e8bd3e70afdadceb82a6b571198140ebf510275fe8337efff",
+          "review_path": "cases/authority/fixtures/au-break-sender-L4-0-review.json",
+          "review_sha256": "fe8f3f303ea7601a14710826d54aaea5965036415faea73e2326d6c64f7eaaae",
+          "receipt_path": "cases/authority/fixtures/au-break-sender-L4-0.receipt.json",
+          "receipt_sha256": "7aeae84b9cdbbcb3872cb5ea53660682bee78c56dbea5caad0540dfbf1a8bbf3"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "pd-break-users",
+  "claim_sha256": "62217eb6c170a3860cd66d2e10e8ba675494c4e02212d76d81cba5d34dbd284d",
+  "conclusion": "accept",
+  "evidence_sha256": "9cbab5500cc2e03cb90dc33c408dd4a03eb8607b7869c8f384b50d5b5707e7db",
+  "reviewer": "reviewer-b",
+  "signature": "8deb6c380449822f60444c3d5444a40a967684ee8807c699f29e06bff489cddf"
+}
